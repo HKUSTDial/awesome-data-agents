@@ -1,0 +1,22 @@
+# Ignore log files
+*.log
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore IDE configuration files
+/.idea/
+/.vscode/
+*.iml
+
+# Ignore pycache
+__pycache__/
+
+# Ignore .specstory
+.specstory/**
+.cursorindexingignore
