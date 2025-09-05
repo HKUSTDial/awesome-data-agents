@@ -52,7 +52,7 @@ The transition between these levels represents more than just incremental progre
 
 ## Paper List
 
-We index papers **by autonomy level**, then **by data-related tasks** across Data Management, Data Preparation, and Data Analysis. Most existing work clusters in L1–L3, L4–L5 are aspirational
+We index papers **by autonomy level**, then **by data-related tasks** across Data Management, Data Preparation, and Data Analysis. Most existing work clusters in L1–L3, L4–L5 are aspirational. We also list relevant surveys, tutorials and benchmarks.
 
 ### L0-L1: From Manual Labor to Preliminary Assistance
 
@@ -66,8 +66,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 
 - [Query Rewriting via LLMs](https://arxiv.org/abs/2502.12918) — *arXiv*
 - [Query Performance Explanation through LLM for HTAP Systems](https://arxiv.org/abs/2412.01709) — *arXiv*
-- [Training-Free Query Optimization via LLM-Based Plan Mapping](https://arxiv.org/abs/2506.05853) — *arXiv*
-- [Database is All You Need: Serving LLMs with Relational DBMS](https://openproceedings.org/2025/conf/edbt/paper-326.pdf) — *EDBT'25*
+- [Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models](https://www.vldb.org/pvldb/vol17/p4365-chen.pdf) — *VLDB'24 Demo*
 
 #### Data Preparation
 
@@ -130,7 +129,7 @@ At this level, data agents gain environmental perception and tool-invocation cap
 
 #### Data Management
 
-- [DB-GPT: Next-Generation Data Interaction System](https://www.vldb.org/pvldb/vol17/p4365-chen.pdf) — *VLDB'24 Demo*
+- [ROMAS: A Role-Based Multi-Agent System for Database monitoring and Planning](https://arxiv.org/abs/2412.13520) — *arXiv*
 - [GPTuner: A Manual-Reading Database Tuning System](https://vldb.org/pvldb/vol17/p1939-tang.pdf) — *VLDB'24*
 - [D-Bot: Database Diagnosis System using Large Language Models](https://www.vldb.org/pvldb/vol17/p2514-li.pdf) — *VLDB'24*
 - [Automatic Database Configuration Debugging using Retrieval-Augmented Language Models](https://dl.acm.org/doi/10.1145/3709663) — *SIGMOD'25*
@@ -241,4 +240,25 @@ Data agents at L4 can achieve sustained self-governance with proactive monitorin
 
 The ultimate vision of fully autonomous data agents that can function as expert data scientists, capable of knowledge creation and paradigm innovation for data-related tasks.
 
+### Survey, Tutorial and Benchmark
 
+#### Survey
+- [Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey](https://dl.acm.org/doi/abs/10.1109/TKDE.2024.3400824) — *TKDE'24*
+- [A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://ieeexplore.ieee.org/abstract/document/11095853) — *TKDE'25*
+- [A Survey of LLM x DATA](https://arxiv.org/abs/2505.18458) — *arXiv*
+- [Large Language Models for Data Science: A Survey](https://openreview.net/forum?id=PiBQUGagoi) — *arXiv*
+- [A Survey on Large Language Model-based Agents for Statistics and Data Science](https://arxiv.org/abs/2412.14222) — *arXiv*
+- [Large Language Model-based Data Science Agent: A Survey](http://arxiv.org/abs/2508.02744) — *arXiv*
+- [Large Language Models for Data Discovery and Integration: Challenges and Opportunities](http://sites.computer.org/debull/A25mar/p3.pdf)  — *IEEE Data Eng. Bull. 2025*
+- [Large Language Models for Data Annotation and Synthesis: A Survey](http://aclanthology.org/2024.emnlp-main.54.pdf) — *EMNLP'24*
+- [Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems](https://arxiv.org/abs/2504.01990) — *arXiv*
+
+#### Tutorial 
+
+- [Data+AI: LLM4Data and Data4LLM](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/SIGMOD2025-Data+AI.pdf) — *SIGMOD'25 Tutorial*
+- [LLM for Data Management](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/p2031-li-vldb2024.pdf) — *VLDB'24 Tutorial*
+
+#### Benchmark
+
+- [DABstep: Data Agent Benchmark for Multi-step Reasoning](https://arxiv.org/abs/2506.23719) — *arXiv*
+- [FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data](https://arxiv.org/abs/2509.02473) — *arXiv*
