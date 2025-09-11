@@ -79,7 +79,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 
 - [BoostER: Leveraging Large Language Models for Enhancing Entity Resolution](https://dl.acm.org/doi/10.1145/3589335.3651245) — *WWW'24*
 - [Leveraging Large Language Models for Entity Matching](https://arxiv.org/pdf/2405.20624) — *arXiv*
-- [Entity Matching using Large Language Models](https://arxiv.org/pdf/2310.11244) — *arXiv*
+- [Entity Matching using Large Language Models](https://arxiv.org/pdf/2310.11244) — *EDBT'25*
 - [Using ChatGPT for Entity Matching](https://link.springer.com/chapter/10.1007/978-3-031-42941-5_20) — *ADBIS 2023*
 - [Cost-Effective In-Context Learning for Entity Resolution](https://arxiv.org/pdf/2312.03987) — *ICDE'24*
 
@@ -96,6 +96,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 - [Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study](https://dl.acm.org/doi/10.1145/3616855.3635752) — *WSDM'24*
 - [TableLlama: Towards Open Large Generalist Models for Tables](https://arxiv.org/abs/2311.09206) — *NAACL'24*
 - [Tab-CoT: Zero-shot Tabular Chain of Thought](https://aclanthology.org/2023.findings-acl.651/) — *ACL'23 Findings*
+- [Are Large Language Models Good Statisticians?](https://arxiv.org/abs/2406.07815) — *NeurIPS'24*
 
 ##### NL2SQL (Structured)
 
@@ -119,7 +120,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 
 ##### Data Storytelling
 
-- [ReportGPT: Human‑in‑the‑Loop Verifiable Table‑to‑Text Generation](https://aclanthology.org/2024.emnlp-industry.39/)  — *EMNLP'24 Industry*
+- [ReportGPT: Human-in-the-Loop Verifiable Table-to-Text Generation](https://aclanthology.org/2024.emnlp-industry.39/)  — *EMNLP'24 Industry*
 
 ### L2: Perceive the Environment
 
@@ -135,6 +136,7 @@ At this level, data agents gain environmental perception and tool-invocation cap
 - [Automatic Database Configuration Debugging using Retrieval-Augmented Language Models](https://dl.acm.org/doi/10.1145/3709663) — *SIGMOD'25*
 - [R-Bot: An LLM-based Query Rewrite System](https://www.vldb.org/pvldb/vol18/p5031-li.pdf) — *VLDB'25*
 - [QUITE: A Query Rewrite System Beyond Rules with LLM Agents](https://arxiv.org/pdf/2506.07675) — *arXiv*
+- [Revolutionizing Database Q&A with Large Language Models: Comprehensive Benchmark and Evaluation](https://dl.acm.org/doi/epdf/10.1145/3711896.3737405) — *KDD'25*
 
 #### Data Preparation
 
