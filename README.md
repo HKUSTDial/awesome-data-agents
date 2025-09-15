@@ -190,6 +190,7 @@ At this level, data agents gain environmental perception and tool-invocation cap
 
 - [DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts](https://aclanthology.org/2024.emnlp-main.1073/) — *EMNLP'24*
 - [Multimodal DeepResearcher: Generating Text–Chart Interleaved Reports with an Agentic Framework](https://arxiv.org/abs/2506.02454) — *arXiv*
+- [DAgent: A Relational Database-Driven Data Analysis Report Generation Agent](https://arxiv.org/abs/2503.13269) — *arXiv*
 
 ##### Unstructured
 
@@ -217,15 +218,14 @@ Level L3 marks a critical transition where data agents evolve from procedural ex
 ##### Unstructured
 
 - [Unify: A System For Unstructured Data Analytics](https://dbgroup.cs.tsinghua.edu.cn/ligl//papers/Unify.pdf) — *ICDE'25*
-- [DataMosaic: Explainable and Verifiable Multi-Modal Data Analytics through Extract–Reason–Verify (arXiv'25)](https://arxiv.org/abs/2504.10036) — *arXiv*
+- [DataMosaic: Explainable and Verifiable Multi-Modal Data Analytics through Extract-Reason-Verify (arXiv'25)](https://arxiv.org/abs/2504.10036) — *arXiv*
 
 #### Data System
 
 - [Chat2Data: An Interactive Data Analysis System with RAG, Vector Databases and LLMs](https://dl.acm.org/doi/pdf/10.14778/3685800.3685905) — *VLDB'24 Demo*
-- [DataMosaic: Explainable and Verifiable Multi-Modal Data Analytics through Extract–Reason–Verify](https://arxiv.org/abs/2504.10036) — *arXiv*
 - [Data Interpreter: An LLM Agent For Data Science](https://aclanthology.org/2025.findings-acl.1016/) — *ACL'25 Findings*
 - [AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries](https://vldb.org/cidrdb/papers/2025/p32-wang.pdf) — *CIDR'25*
-- [Palimpzest: Optimizing AI‑Powered Analytics with Declarative Query Processing](https://mail.vldb.org/cidrdb/papers/2025/p12-liu.pdf) — *CIDR'25*
+- [Palimpzest: Optimizing AI-Powered Analytics with Declarative Query Processing](https://mail.vldb.org/cidrdb/papers/2025/p12-liu.pdf) — *CIDR'25*
 - [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/abs/2508.05002) — *arXiv*
 - [SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science](https://arxiv.org/pdf/2503.23314) — *arXiv*
 - [Data Agent: A Holistic Architecture for Orchestrating Data+AI Ecosystems](https://arxiv.org/abs/2507.01599) — *arXiv*
