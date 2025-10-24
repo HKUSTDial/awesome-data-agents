@@ -27,7 +27,7 @@ Coming soon
 
 The way humans interact with data is undergoing a profound transformation. Data agents — LLM-powered systems designed to orchestrate the Data + AI ecosystem — are emerging as a promising solution for automating and democratizing data-related tasks across its lifecycle, from management and preparation to analysis.
 
-However, the term "data agent" is currently used inconsistently across research and industry, resulting in considerable ambiguity. Systems with vastly different capabilities in autonomy, reliability, and task complexity are often labeled the same way. This creates a "Babel Tower" crisis where mismatched expectations and unclear accountability threaten to undermine user trust and impede healthy development of the field.
+However, the term "data agent" is currently used inconsistently across research and industry, resulting in considerable ambiguity. Systems with vastly different capabilities in autonomy, reliability, and task complexity are often labeled the same way. This creates a terminological ambiguity leading to mismatched expectations and unclear accountability challenge user trust and healthy development of the field.
 
 This repository — a companion to our survey — introduces a layered taxonomy (L0-L5) for data agents based on their degree of autonomy, providing a common framework to clarify capability boundaries and lines of accountability at each level.
 
@@ -39,7 +39,7 @@ As mentioned above, to bring clarity to the diverse landscape of data agents, we
 | Level | Degree of Autonomy | Human Role | Data Agent Role |
 |:-----:|------|------------|------------|
 | L0 | Manual/No Autonomy | Dominator (Solo) | N/A (None) |
-| L1 | Assisted | Dominator (Editing) | Assistant (Auxiliary) |
+| L1 | Assisted | Dominator (Integrating) | Assistant (Responder) |
 | L2 | Partial Autonomy | Dominator (Orchestrating) | Executor (Procedural) |
 | L3 | Conditional Autonomy | Supervisor (Overseeing) | Dominator (Autonomous) |
 | L4 | High Autonomy | Onlooker (Delegating) | Dominator (Proactive) |
@@ -52,6 +52,9 @@ The transition between these levels represents more than just incremental progre
 
 ## Paper List
 
+<p align="center"><img src="assets/representative_work.jpg" alt="Leaps" width="100%"></p>
+
+
 We index papers **by autonomy level**, then **by data-related tasks** across Data Management, Data Preparation, and Data Analysis. Most existing work clusters in L1–L3, L4–L5 are aspirational. We also list relevant surveys, tutorials and benchmarks.
 
 ### L0-L1: From Manual Labor to Preliminary Assistance
@@ -63,64 +66,72 @@ In L0 level, data-related tasks are performed entirely by human experts without 
 At L1 level, data agents start to have the capabilities to provide preliminary and single-point assistance through typical question-answering interactions. While they can help with atomic tasks like code peices generation, they lack environmental perception and require considerable human validation, editing, and optimization.
 
 #### Data Management
-
-- [Query Rewriting via LLMs](https://arxiv.org/abs/2502.12918) — *arXiv*
-- [Query Performance Explanation through LLM for HTAP Systems](https://arxiv.org/abs/2412.01709) — *arXiv*
-- [Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models](https://www.vldb.org/pvldb/vol17/p4365-chen.pdf) — *VLDB'24 Demo*
-
+##### Configuration Tuning
+- [LLMTune: Accelerate Database Knob Tuning with Large Language Models](https://arxiv.org/abs/2404.11581v1) - *arXiv 2024*
+- [λ-Tune: Harnessing Large Language Models for Automated Database System Tuning](https://dl.acm.org/doi/abs/10.1145/3709652) - *SIGMOD 2025*
+- [LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model](https://dl.acm.org/doi/abs/10.1007/978-3-031-70362-1_22) - *ECML PKDD 2024*
+- [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://vldb.org/pvldb/vol17/p1939-tang.pdf) - *VLDB 2024*
+- [E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model](https://arxiv.org/abs/2404.11581) - *VLDB 2025*
+##### Query Optimization
+- [DB-GPT: Large Language Model Meets Database](https://link.springer.com/article/10.1007/s41019-023-00235-6) - *Data Science and Engineering 2024*
+- [LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency](https://dl.acm.org/doi/abs/10.14778/3696435.3696440) - *VLDB 2024*
+- [Query Rewriting via Large Language Models](https://arxiv.org/abs/2403.09060) - *arXiv 2024*
+- [Query Rewriting via LLMs](https://arxiv.org/abs/2502.12918) - *arXiv 2025*
+- [Can Large Language Models Be Query Optimizer for Relational Databases?](https://arxiv.org/abs/2502.05562) - *arXiv 2025*
+- [A Query Optimization Method Utilizing Large Language Models](https://arxiv.org/abs/2503.06902) - *arXiv 2025*
+- [E3-Rewrite: Learning to Rewrite SQL for Executability, Equivalence, and Efficiency](https://arxiv.org/abs/2508.09023) - *arXiv 2025*
+##### System Diagnosis
+- [DBG-PT: A Large Language Model Assisted Query Performance Regression Debugger](https://dl.acm.org/doi/abs/10.14778/3685800.3685869) - *VLDB 2024*
+- [Automatic Database Configuration Debugging using Retrieval-Augmented Language Models](https://dl.acm.org/doi/abs/10.1145/3709663) - *SIGMOD 2025*
 #### Data Preparation
-
 ##### Data Cleaning
-
-- [LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs](https://arxiv.org/abs/2404.18681) — *arXiv*
-- [HAIPipe: Combining Human-generated and Machine-generated Pipelines for Data Preparation](https://dl.acm.org/doi/10.1145/3588945) — *SIGMOD'23*
-
+- [Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911) - *VLDB 2022*
+- [RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes](https://arxiv.org/abs/2303.16909) - *VLDB demo 2024*
+- [Data Imputation with Limited Data Redundancy Using Data Lakes](https://www.vldb.org/pvldb/vol18/p3354-tang.pdf) - *VLDB 2025*
+- [UNIDM: A UNIFIED FRAMEWORK FOR DATA MANIPULATION WITH LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2405.06510) - *MLSys 2024*
+- [LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs](https://arxiv.org/abs/2404.18681) - *ADBIS 2024*
 ##### Data Integration
-
-- [BoostER: Leveraging Large Language Models for Enhancing Entity Resolution](https://dl.acm.org/doi/10.1145/3589335.3651245) — *WWW'24*
-- [Leveraging Large Language Models for Entity Matching](https://arxiv.org/pdf/2405.20624) — *arXiv*
-- [Entity Matching using Large Language Models](https://arxiv.org/pdf/2310.11244) — *EDBT'25*
-- [Using ChatGPT for Entity Matching](https://link.springer.com/chapter/10.1007/978-3-031-42941-5_20) — *ADBIS 2023*
-- [Cost-Effective In-Context Learning for Entity Resolution](https://arxiv.org/pdf/2312.03987) — *ICDE'24*
-
-- [Schema Matching with Large Language Models: An Experimental Study](https://arxiv.org/abs/2407.11852) — *VLDB'24*
-- [Magneto: Scaling Schema Matching by Combining Small and Large Language Models](https://arxiv.org/abs/2412.08194) — *arXiv*
-- [Large Language Models for JSON Schema Discovery](https://arxiv.org/abs/2407.03286) — *arXiv*
-- [Matchmaker: Self-Improving LLM Programs for Schema Matching](https://arxiv.org/abs/2410.24105) — *arXiv*
-- [LLMs4SchemaDiscovery: A Human-in-the-Loop Workflow for Scientific Schema Discovery using LLMs](https://arxiv.org/abs/2504.00752) — *arXiv*
-
+- [Table-GPT: Table-tuned GPT for Diverse Table Tasks](https://arxiv.org/pdf/2310.09263) - *SIGMOD 2024*
+- [Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration](https://arxiv.org/pdf/2312.03987) - *ICDE 2024*
+- [Jellyfish: Instruction-Tuning Local Large Language Models for Data Preprocessing](https://aclanthology.org/2024.emnlp-main.497/) - *EMNLP 2024*
+##### Data Discovery
+- [ArcheType: A Novel Framework for Open-Source Column Type Annotation using Large Language Models](https://arxiv.org/pdf/2310.18208) - *VLDB 2024*
+- [RACOON: An LLM-based Framework for Retrieval-Augmented Column Type Annotation with a Knowledge Graph](https://arxiv.org/abs/2409.14556) - *arXiv 2024*
+- [Cocoon: Semantic table profiling using large language model](https://dl.acm.org/doi/abs/10.1145/3665939.3665957) - *HILDA 2024*
+- [Autoddg: Automated dataset description generation using large language models](https://arxiv.org/abs/2502.01050) - *arXiv 2025*
+- [Pneuma: Leveraging llms for tabular data representation and retrieval in an end-to-end system](https://dl.acm.org/doi/abs/10.1145/3725337) - *SIGMOD 2025*
+- [Evaluating Knowledge Generation and Self-refinement Strategies for LLM-Based Column Type Annotation](https://link.springer.com/chapter/10.1007/978-3-032-05281-0_8) - *ADBIS 2025*
+- [Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models](https://arxiv.org/abs/2508.09403) - *EMNLP 2025*
 #### Data Analysis
-
-##### TableQA (Structured)
-
-- [Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study](https://dl.acm.org/doi/10.1145/3616855.3635752) — *WSDM'24*
-- [TableLlama: Towards Open Large Generalist Models for Tables](https://arxiv.org/abs/2311.09206) — *NAACL'24*
-- [Tab-CoT: Zero-shot Tabular Chain of Thought](https://aclanthology.org/2023.findings-acl.651/) — *ACL'23 Findings*
-- [Are Large Language Models Good Statisticians?](https://arxiv.org/abs/2406.07815) — *NeurIPS'24*
-
-##### NL2SQL (Structured)
-
-- [Evaluating the Text-to-SQL Capabilities of Large Language Models](https://arxiv.org/pdf/2204.00498) — *arXiv*
-- [C3: Zero-shot Text-to-SQL with ChatGPT](https://arxiv.org/abs/2307.07306) — *arXiv*
-- [DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction](https://arxiv.org/pdf/2304.11015) — *NeurIPS'23*
-- [ACT-SQL: In-context learning for text-to-SQL with automatically-generated chain-of-thought](https://aclanthology.org/2023.findings-emnlp.227/) — *EMNLP'23 Findings*
-- [Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation](https://arxiv.org/abs/2308.15363) — *VLDB'24*
-
-##### NL2VIS (Structured)
-
-- [Data2Vis: Automatic Generation of Data Visualizations from Natural Language](https://arxiv.org/abs/1804.03126) — *arXiv*
-- [Automated Data Visualization from Natural Language via Large Language Models](https://arxiv.org/abs/2404.17136) — *SIGMOD'24*
-- [Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models](https://arxiv.org/abs/2408.13391) — *VIS'24 NLVIZ workshop*
-- [HAIChart: Human and AI Paired Visualization System](https://www.vldb.org/pvldb/vol17/p3178-luo.pdf) — *VLDB'24*
-
-##### Unstructured
-
-- [REPLUG: Retrieval-Augmented Black-Box Language Models](https://aclanthology.org/2024.naacl-long.463.pdf)  — *NAACL'24*
-- [M3DocRAG: Multi-modal Retrieval is What You Need for Multi-page Multi-document Understanding](https://arxiv.org/pdf/2411.04952) — *arXiv*
-
-##### Data Storytelling
-
-- [ReportGPT: Human-in-the-Loop Verifiable Table-to-Text Generation](https://aclanthology.org/2024.emnlp-industry.39/)  — *EMNLP'24 Industry*
+##### TableQA
+- [Large Language Models are Versatile Decomposers: Decomposing Evidence and Questions for Table-based Reasoning](https://dl.acm.org/doi/10.1145/3539618.3591708) - *SIGIR 2023*
+- [Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875) - *ICLR 2023*
+- [Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study](https://dl.acm.org/doi/abs/10.1145/3616855.3635752) - *WSDM 2024*
+- [TableLlama: Towards Open Large Generalist Models for Tables](https://aclanthology.org/2024.naacl-long.335/) - *NAACL 2024*
+##### NL2SQL
+- [DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction.](https://arxiv.org/abs/2304.11015) - *NeurIPS 2023*
+- [Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation](https://arxiv.org/abs/2308.15363) - *VLDB 2023*
+- [ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought](https://arxiv.org/pdf/2310.17342) - *EMNLP 2023*
+- [The Dawn of Natural Language to SQL: Are We Fully Ready?](https://arxiv.org/pdf/2406.01265) - *VLDB 2024*
+##### NL2VIS
+- [Chat2VIS: Generating Data Visualizations via Natural Language Using ChatGPT, Codex and GPT-3 Large Language Models](https://ieeexplore.ieee.org/document/10121440) - *IEEE Access 2023*
+- [Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models](https://arxiv.org/html/2408.13391v2) - *VIS 2024*
+- [prompt4vis: prompting large language models with example mining for tabular data visualization: Prompt4Vis: prompting large language models with example mining](https://dl.acm.org/doi/abs/10.1007/s00778-025-00912-0) - *VLDB 2025*
+- [nvBench 2.0: Resolving Ambiguity in Text-to-Visualization through Stepwise Reasoning](https://arxiv.org/abs/2503.12880) - *NeuRIPS 2025*
+##### Unstructured Data Analysis
+- [LongRAG: A Dual-Perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering](https://aclanthology.org/2024.emnlp-main.1259.pdf) - *EMNLP 2024*
+- [RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval](https://arxiv.org/abs/2401.18059) - *ICLR 2024*
+- [PDFTriage: Question Answering over Long, Structured Documents](https://aclanthology.org/2024.emnlp-industry.13.pdf) - *EMNLP 2024*
+- [Unifying Multimodal Retrieval via Document Screenshot Embedding](https://arxiv.org/pdf/2406.11251) - *EMNLP 2024*
+- [VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation](https://aclanthology.org/2025.naacl-long.310.pdf) - *NAACL 2025*
+- [Docopilot: Improving Multimodal Models for Document-Level Understanding](https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Docopilot_Improving_Multimodal_Models_for_Document-Level_Understanding_CVPR_2025_paper.pdf) - *CVPR 2025*
+##### Report Generation
+- [DataTales: Investigating the use of Large Language Models for Authoring Data-Driven Articles](https://arxiv.org/abs/2308.04076) - *VIS 2023*
+- [Enhancing Data Literacy On-demand: LLMs as Guides for Novices in Chart Interpretation](https://ieeexplore.ieee.org/document/10555321) - *TVCG 2024*
+- [ReportGPT: Human‑in‑the‑Loop Verifiable Table‑to‑Text Generation](https://aclanthology.org/2024.emnlp-industry.39/) - *EMNLP Industry 2025*
+- [InterChat: Enhancing Generative Visual Analytics using Multimodal Interactions](https://onlinelibrary.wiley.com/doi/10.1111/cgf.70112?af=R) - *EuroVis 2025*
+- [VizTA: Enhancing Comprehension of Distributional Visualization with Visual-Lexical Fused Conversational Interface](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70110) - *EuroVis 2025*
+- [ChartLens: Fine-grained Visual Attribution in Charts](https://aclanthology.org/2025.acl-long.1094/) - *ACL 2025*
 
 ### L2: Perceive the Environment
 
@@ -129,78 +140,80 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 At this level, data agents gain environmental perception and tool-invocation capabilities, enabling them to execute bounded sub-tasks and multi-step procedures. While they can follow human-orchestrated workflows, the overall process is still dominated by human direction.
 
 #### Data Management
-
-- [ROMAS: A Role-Based Multi-Agent System for Database monitoring and Planning](https://arxiv.org/abs/2412.13520) — *arXiv*
-- [GPTuner: A Manual-Reading Database Tuning System](https://vldb.org/pvldb/vol17/p1939-tang.pdf) — *VLDB'24*
-- [D-Bot: Database Diagnosis System using Large Language Models](https://www.vldb.org/pvldb/vol17/p2514-li.pdf) — *VLDB'24*
-- [Automatic Database Configuration Debugging using Retrieval-Augmented Language Models](https://dl.acm.org/doi/10.1145/3709663) — *SIGMOD'25*
-- [R-Bot: An LLM-based Query Rewrite System](https://www.vldb.org/pvldb/vol18/p5031-li.pdf) — *VLDB'25*
-- [QUITE: A Query Rewrite System Beyond Rules with LLM Agents](https://arxiv.org/pdf/2506.07675) — *arXiv*
-- [Revolutionizing Database Q&A with Large Language Models: Comprehensive Benchmark and Evaluation](https://dl.acm.org/doi/epdf/10.1145/3711896.3737405) — *KDD'25*
-
+##### Configuration Tuning
+- [Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation](https://arxiv.org/pdf/2408.02213) - *arXiv 2024*
+- [LLMIdxAdvis: Resource-Efficient Index Advisor Utilizing Large Language Model](https://arxiv.org/abs/2503.07884) - *arXiv 2025*
+- [Rabbit: Retrieval-Augmented Generation Enables Better Automatic Database Knob Tuning](https://ieeexplore.ieee.org/document/11113071) - *ICDE 2025*
+- [MCTuner: Spatial Decomposition-Enhanced Database Tuning via LLM-Guided Exploration](https://arxiv.org/abs/2509.06298) - *arXiv 2025*
+##### Query Optimization
+- [SERAG: Self-Evolving RAG System for Query Optimization](https://viterbi-web.usc.edu/~sabek/pdf/25_workshop_serag.pdf) - *SIGMOD Workshop 2025*
+- [QUITE: A Query Rewrite System Beyond Rules with LLM Agents](https://arxiv.org/abs/2506.07675) - *arXiv 2025*
+- [R-Bot: An LLM-Based Query Rewrite System](https://arxiv.org/abs/2412.01661) - *VLDB 2025*
+##### System Diagnosis
+- [Panda: Performance Debugging for Databases using LLM Agents](https://www.vldb.org/cidrdb/papers/2024/p6-singh.pdf) - *CIDR 2024*
+- [D-Bot: Database Diagnosis System using Large Language Models](https://arxiv.org/abs/2312.01454) - *VLDB 2024*
+- [DBAIOps: A Reasoning LLM-Enhanced Database Operation and Maintenance System using Knowledge Graphs](https://arxiv.org/abs/2508.01136) - *arXiv 2025*
 #### Data Preparation
-
 ##### Data Cleaning
-
-- [ChatPipe: Orchestrating Data Preparation Pipelines by Optimizing Human–ChatGPT Interactions](https://dl.acm.org/doi/10.1145/3626246.3654727) — *SIGMOD'24 Demo*
-- [CleanAgent: Automating Data Standardization with LLM-based Agents](https://arxiv.org/abs/2403.08291) — *arXiv*
-- [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation](https://arxiv.org/abs/2412.06724) — *arXiv*
-- [Text-to-Pipeline: Bridging Natural Language and Data Preparation Pipelines](https://arxiv.org/abs/2505.15874) — *arXiv*
-- [Weak-to-Strong Prompts with Lightweight-to-Powerful LLMs for High-Accuracy, Low-Cost, and Explainable Data Transformation](https://www.vldb.org/pvldb/vol18/p2371-tang.pdf) — *VLDB'24*
-- [Exploring LLM Agents for Cleaning Tabular Machine Learning Datasets](https://arxiv.org/pdf/2503.06664) — *ICLR'25 Workshop on Foundation Models in the Wild*
-- [AutoPrep: Natural Language Question-Aware Data Preparation with a Multi-Agent Framework](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/VLDB25-AutoPrep.pdf) — *VLDB'25*
-
+- [SketchFill: Sketch-Guided Code Generation for Imputing Derived Missing Values](https://arxiv.org/abs/2412.19113) - *arXiv 2024*
+- [IterClean: An Iterative Data Cleaning Framework with Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3674399.3674436) - *ACM-TURC 2024*
+- [AutoPrep: Natural Language Question-Aware Data Preparation with a Multi-Agent Framework](https://arxiv.org/pdf/2412.10422) - *VLDB 2025*
+- [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://arxiv.org/abs/2412.06724) - *EMNLP Findings 2025*
+- [CleanAgent: Automating Data Standardization with LLM-based Agents](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DATAI/DATAI25_8.pdf) - *VLDB Workshop 2025*
+- [Exploring LLM Agents for Cleaning Tabular Machine Learning Datasets](https://arxiv.org/pdf/2503.06664) - *ICLR Workshop 2025*
+- [Weak-to-Strong Prompts with Lightweight-to-Powerful LLMs for High-Accuracy, Low-Cost, and Explainable Data Transformation](https://www.vldb.org/pvldb/vol18/p2371-tang.pdf) - *VLDB 2025*
 ##### Data Integration
-
-- [Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching](https://aclanthology.org/2025.coling-main.8.pdf) — *COLING'25*
-- [Agent-OM: Leveraging LLM Agents for Ontology Matching](https://www.vldb.org/pvldb/vol18/p516-qiang.pdf) — *VLDB'25*
-- [Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching](https://arxiv.org/pdf/2501.08686) — *arXiv*
-
-
+- [Agent-OM: Leveraging LLM Agents for Ontology Matching](https://arxiv.org/pdf/2312.00326) - *VLDB 2024*
+- [Ontology Matching with Large Language Models and Prioritized Depth-First Search](https://arxiv.org/pdf/2501.11441) - *Information Fusion 2025*
+- [Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching](https://arxiv.org/pdf/2405.16884) - *COLING 2025*
+##### Data Discovery
+- [Chorus: Foundation Models for Unified Data Discovery and Exploration](https://dl.acm.org/doi/abs/10.14778/3659437.3659461) - *VLDB 2024*
+- [Data-driven Discovery with Large Generative Models](https://arxiv.org/pdf/2402.13610) - *arXiv 2024*
+- [DATALORE: Can a Large Language Model Find All Lost Scrolls in a Data Repository?](https://ieeexplore.ieee.org/abstract/document/10597732) - *ICDE 2024*
+- [LEDD: Large Language Model-Empowered Data Discovery in Data Lakes](https://arxiv.org/abs/2502.15182) - *arXiv 2025*
+- [Automated Metadata Generation Using Large Language Models: A GPT-4 Case Study for Enterprise Data Profiling](https://sarcouncil.com/download-article/SJECS-221-2025-769-775.pdf) - *Journal for Engineering and Computer Science 2025*
+- [Automatic database description generation for Text-to-SQL](https://arxiv.org/abs/2502.20657) - *arXiv 2025*
+- [Towards Operationalizing Heterogeneous Data Discovery](https://arxiv.org/pdf/2504.02059) - *arXiv 2025*
 #### Data Analysis
-
-##### TableQA (Structured)
-
-- [Binder: Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875) — *ICLR'23*
-- [StructGPT: A General Framework for Large Language Model on Structured Data](https://arxiv.org/abs/2305.09645) — *EMNLP'23*
-- [ReAcTable: Enhancing ReAct for Table Question Answering (VLDB'24)](https://dl.acm.org/doi/10.14778/3659437.3659452) — *VLDB'24*
-- [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://aclanthology.org/2025.acl-long.853.pdf) — *ACL'25*
-- [Large Language Models are Versatile Decomposers: Decomposing Evidence and Questions for Table-based Reasoning](https://dl.acm.org/doi/pdf/10.1145/3539618.3591708) — *SIGIR'23*
-- [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://openreview.net/forum?id=4L0xnS4GQM) — *ICLR'24*
-- [AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models](http://dl.acm.org/doi/10.14778/3685800.3685816) — *PVLDB'24*
-- [TableMaster: A Recipe to Advance Table Understanding with Language Models](https://arxiv.org/pdf/2501.19378) — *arXiv*
-
-##### NL2SQL (Structured)
-
-- [CHASE-SQL: Multi-Path Reasoning and Preference Optimization for Text-to-SQL](https://proceedings.iclr.cc/paper_files/paper/2025/file/974ff7b5bf08dbf9400b5d599a39c77f-Paper-Conference.pdf) — *ICLR'25*
-- [MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL](https://arxiv.org/abs/2312.11242) — *COLING'25*
-- [Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search](https://arxiv.org/abs/2502.17248) — *arXiv*
-- [ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/abs/2502.00675) — *arXiv*
-- [ChatBI: Towards Natural Language to Complex Business Intelligence SQL](https://arxiv.org/pdf/2405.00527) — *arXiv*
-
-##### NL2VIS (Structured)
-
-- [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/pdf/2402.11453) — *arXiv*
-- [DeepVIS: Bridging Natural Language and Data Visualization Through Step-wise Reasoning](https://arxiv.org/pdf/2508.01700) — *VIS'25*
-- [C2: Scalable Auto-Feedback for LLM-based Chart Generation](https://aclanthology.org/2025.naacl-long.232/) — *NAACL'25*
-- [PlotGen: Multi-Agent LLM-based Scientific Data Visualization via Multimodal Feedback](https://www.arxiv.org/pdf/2502.00988) — *WWW'25*
-- [nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://aclanthology.org/2025.acl-long.960/) — *ACL'25*
-
-##### Data Storytelling
-
-- [DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts](https://aclanthology.org/2024.emnlp-main.1073/) — *EMNLP'24*
-- [Multimodal DeepResearcher: Generating Text–Chart Interleaved Reports with an Agentic Framework](https://arxiv.org/abs/2506.02454) — *arXiv*
-- [DAgent: A Relational Database-Driven Data Analysis Report Generation Agent](https://arxiv.org/abs/2503.13269) — *arXiv*
-
-##### Unstructured
-
-- [QUEST: Query Optimization in Unstructured Document Analysis](https://arxiv.org/abs/2507.06515) — *VLDB'25*
-
-#### Data System
-
-- [Semantic Operators: A Declarative Model for Rich, AI-Augmented Data Analytics](https://arxiv.org/abs/2407.11418) — *arXiv*
-- [LAMBDA: A Large Model Based Data Agent](https://arxiv.org/pdf/2407.17535) — *arXiv*
-- [InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks](https://proceedings.mlr.press/v235/hu24s.html) — *ICML'24*
+##### TableQA
+- [StructGPT: A General Framework for Large Language Model to Reason over Structured Data](https://aclanthology.org/2023.emnlp-main.574/) - *EMNLP 2023*
+- [ReAcTable: Enhancing ReAct for Table Question Answering](https://dl.acm.org/doi/10.14778/3659437.3659452) - *VLDB 2024*
+- [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398) - *ICLR 2024*
+- [AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models](https://www.vldb.org/pvldb/vol17/p3920-zhu.pdf) - *VLDB 2024*
+- [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://aclanthology.org/2025.acl-long.853/) - *ACL 2025*
+##### NL2SQL
+- [MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL](https://arxiv.org/abs/2312.11242) - *COLING 2023*
+- [Chatbi: Towards natural language to complex business](https://arxiv.org/pdf/2405.00527) - *arXiv 2024*
+- [CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL](https://arxiv.org/abs/2410.01943) - *ICLR 2024*
+- [Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search](https://arxiv.org/pdf/2502.17248) - *ICML 2025*
+- [OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.](https://arxiv.org/pdf/2502.14913) - *SIGMOD 2025*
+- [ReFoRCE: A Text-to-SQL Agent with with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/pdf/2502.00675) - *arXiv 2025*
+- [DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework](https://www.arxiv.org/pdf/2510.17586) - *arXiv 2025*
+##### NL2VIS
+- [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/pdf/2402.11453) - *ACL 2024*
+- [Text2Chart31: Instruction Tuning for Chart Generation with Automatic Feedback](https://arxiv.org/pdf/2410.04064) - *EMNLP 2024*
+- [NVAGENT: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://arxiv.org/pdf/2502.05036) - *ACL 2025*
+- [DeepVIS: Bridging Natural Language and Data Visualization Through Step-wise Reasoning](https://arxiv.org/pdf/2508.01700) - *VIS 2025*
+##### Unstructured Data Analysis
+- [Active Retrieval Augmented Generation](https://arxiv.org/pdf/2305.06983) - *NIPS 2023*
+- [A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts](https://arxiv.org/pdf/2402.09727) - *ICML 2024*
+- [GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models](https://arxiv.org/pdf/2406.14550) - *EMNLP 2024*
+- [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/pdf/2310.11511) - *ICLR 2024*
+- [REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering](https://aclanthology.org/2024.emnlp-main.321.pdf) - *EMNLP 2024*
+- [QUEST: Query Optimization in Unstructured Document Analysis](https://dl.acm.org/doi/pdf/10.14778/3749646.3749713) - *VLDB 2025*
+- [Doctopus: Budget-aware Structural Table Extraction from Unstructured Documents](https://www.vldb.org/pvldb/vol18/p3695-chai.pdf) - *VLDB 2025*
+- [Visual Document Understanding and Question Answering: A Multi-Agent Collaboration Framework with Test-Time Scaling](https://arxiv.org/pdf/2508.03404) - *arXiv 2025*
+- [DataPuzzle: Breaking Free from the Hallucinated Promise of LLMs in Data Analysis](https://arxiv.org/abs/2504.10036) - *arXiv 2025*
+##### Report Generation
+- [DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts](https://aclanthology.org/2024.emnlp-main.1073/) - *EMNLP 2024*
+- [From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems](https://ieeexplore.ieee.org/document/10766492) - *VIS  workshop 2024*
+- [LightVA: Lightweight Visual Analytics with LLM Agent-Based Task Planning and Execution](https://ieeexplore.ieee.org/document/10753451) - *TVCG 2024*
+- [Multimodal DeepResearcher: Generating Text–Chart Interleaved Reports with an Agentic Framework](https://arxiv.org/abs/2506.02454) - *arXiv 2025*
+- [DAgent: A Relational Database-Driven Data Analysis Report Generation Agent](https://arxiv.org/abs/2503.13269) - *arXiv 2025*
+- [ChartInsighter: An Approach for Mitigating Hallucination in Time-Series Chart Summary Generation With a Benchmark Dataset](https://ieeexplore.ieee.org/document/10988687) - *TVCG 2025*
+- [ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent](https://arxiv.org/abs/2507.18165) - *VIS 2025*
+- [VOICE: Visual Oracle for Interaction, Conversation, and Explanation](https://ieeexplore.ieee.org/document/11037292) - *TVCG 2025*
+- [NLI4VolVis: Natural Language Interaction for Volume Visualization  via LLM Multi-Agents and Editable 3D Gaussian Splatting (VIS'25)](https://arxiv.org/abs/2507.12621) - *VIS 2025*
 
 ### Proto-L3: Striving for Autonomous Data Agents
 
@@ -208,29 +221,20 @@ At this level, data agents gain environmental perception and tool-invocation cap
 
 Level L3 marks a critical transition where data agents evolve from procedural executors into autonomous directors for data-related tasks. At this stage, they can independently decompose high-level goals, orchestrate and optimize tailored, end-to-end pipelines, shifting the human to a supervisory role. While recent pioneering efforts show promise, they are largely considered very early-stage "Proto-L3" systems. Consequently, the pursuit of more autonomous, reliable, versitile and comprehensive L3 data agents remains a key objective in both academia and industry.
 
-#### Data Management
+- [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002) - *arXiv 2025.0*
+- [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *arXiv 2025.0*
+- [AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries](https://www.vldb.org/cidrdb/papers/2025/p32-wang.pdf) - *CIDR'25 2025.0*
+- [iDataLake: An LLM-Powered Analytics System on Data Lakes](http://sites.computer.org/debull/A25mar/p57.pdf) - *IEEE Data Engineering Bulletin 2025.0*
+- [SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence](https://dl.acm.org/doi/10.14778/3750601.3750610) - *VLDB 2025.0*
+- [Data Interpreter: An LLM Agent For Data Science](https://arxiv.org/pdf/2402.18679) - *ACL Findings 2024.0*
+- [JoyAgent](https://github.com/jd-opensource/joyagent-jdgenie/tree/data_agent) — *JDCHO*
+- [Assist. DS Agent](https://www.databricks.com/blog/introducing-databricks-assistant-data-science-agent) — *Databricks*
+- [Data Agent](https://www.volcengine.com/product/DataAgent) — *Bytedance*
+- [BigQuery](https://cloud.google.com/blog/products/data-analytics/a-closer-look-at-bigquery-data-engineering-agent) — *Google*
+- [Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) — *Snowflake*
+- [Xata Agent (Just DBA)](https://xata.io/blog/dba-to-db-agent) — *Xata*
 
-- [DBAIOps: A Reasoning LLM-Enhanced Database Operation and Maintenance System using Knowledge Graphs](https://arxiv.org/pdf/2508.01136) — *arXiv*
-- [GaussMaster: An LLM-based Database Copilot System](https://arxiv.org/pdf/2506.23322) — *arXiv*
-
-#### Data Analysis
-
-##### Unstructured
-
-- [Unify: A System For Unstructured Data Analytics](https://dbgroup.cs.tsinghua.edu.cn/ligl//papers/Unify.pdf) — *ICDE'25*
-- [DataMosaic: Explainable and Verifiable Multi-Modal Data Analytics through Extract-Reason-Verify (arXiv'25)](https://arxiv.org/abs/2504.10036) — *arXiv*
-
-#### Data System
-
-- [Chat2Data: An Interactive Data Analysis System with RAG, Vector Databases and LLMs](https://dl.acm.org/doi/pdf/10.14778/3685800.3685905) — *VLDB'24 Demo*
-- [Data Interpreter: An LLM Agent For Data Science](https://aclanthology.org/2025.findings-acl.1016/) — *ACL'25 Findings*
-- [AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries](https://vldb.org/cidrdb/papers/2025/p32-wang.pdf) — *CIDR'25*
-- [Palimpzest: Optimizing AI-Powered Analytics with Declarative Query Processing](https://mail.vldb.org/cidrdb/papers/2025/p12-liu.pdf) — *CIDR'25*
-- [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/abs/2508.05002) — *arXiv*
-- [SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science](https://arxiv.org/pdf/2503.23314) — *arXiv*
-- [Data Agent: A Holistic Architecture for Orchestrating Data+AI Ecosystems](https://arxiv.org/abs/2507.01599) — *arXiv*
-
-### L4-L5: Vision towards Proactive and Generative Data Agents
+### L4-L5: Vision of Proactive and Generative Data Agents
 
 #### L4: Vision of Proactive Data Agents
 
@@ -242,7 +246,9 @@ Data agents at L4 can achieve sustained self-governance with proactive monitorin
 
 The ultimate vision of fully autonomous data agents that can function as expert data scientists, capable of knowledge creation and paradigm innovation for data-related tasks.
 
-### Survey, Tutorial and Benchmark
+<p align="center"><img src="assets/l5_agent.jpg" alt="L4" width="50%"></p>
+
+### Survey and Tutorial
 
 #### Survey
 - [Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey](https://dl.acm.org/doi/abs/10.1109/TKDE.2024.3400824) — *TKDE'24*
@@ -260,7 +266,3 @@ The ultimate vision of fully autonomous data agents that can function as expert 
 - [Data+AI: LLM4Data and Data4LLM](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/SIGMOD2025-Data+AI.pdf) — *SIGMOD'25 Tutorial*
 - [LLM for Data Management](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/p2031-li-vldb2024.pdf) — *VLDB'24 Tutorial*
 
-#### Benchmark
-
-- [DABstep: Data Agent Benchmark for Multi-step Reasoning](https://arxiv.org/abs/2506.23719) — *arXiv*
-- [FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data](https://arxiv.org/abs/2509.02473) — *arXiv*

@@ -1,0 +1,75 @@
+#### Data Management
+##### Configuration Tuning
+- [Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation](https://arxiv.org/pdf/2408.02213) - *arXiv 2024*
+- [LLMIdxAdvis: Resource-Efficient Index Advisor Utilizing Large Language Model](https://arxiv.org/abs/2503.07884) - *arXiv 2025*
+- [Rabbit: Retrieval-Augmented Generation Enables Better Automatic Database Knob Tuning](https://ieeexplore.ieee.org/document/11113071) - *ICDE 2025*
+- [MCTuner: Spatial Decomposition-Enhanced Database Tuning via LLM-Guided Exploration](https://arxiv.org/abs/2509.06298) - *arXiv 2025*
+##### Query Optimization
+- [SERAG: Self-Evolving RAG System for Query Optimization](https://viterbi-web.usc.edu/~sabek/pdf/25_workshop_serag.pdf) - *SIGMOD Workshop 2025*
+- [QUITE: A Query Rewrite System Beyond Rules with LLM Agents](https://arxiv.org/abs/2506.07675) - *arXiv 2025*
+- [R-Bot: An LLM-Based Query Rewrite System](https://arxiv.org/abs/2412.01661) - *VLDB 2025*
+##### System Diagnosis
+- [Panda: Performance Debugging for Databases using LLM Agents](https://www.vldb.org/cidrdb/papers/2024/p6-singh.pdf) - *CIDR 2024*
+- [D-Bot: Database Diagnosis System using Large Language Models](https://arxiv.org/abs/2312.01454) - *VLDB 2024*
+- [DBAIOps: A Reasoning LLM-Enhanced Database Operation and Maintenance System using Knowledge Graphs](https://arxiv.org/abs/2508.01136) - *arXiv 2025*
+#### Data Preparation
+##### Data Cleaning
+- [SketchFill: Sketch-Guided Code Generation for Imputing Derived Missing Values](https://arxiv.org/abs/2412.19113) - *arXiv 2024*
+- [IterClean: An Iterative Data Cleaning Framework with Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3674399.3674436) - *ACM-TURC 2024*
+- [AutoPrep: Natural Language Question-Aware Data Preparation with a Multi-Agent Framework](https://arxiv.org/pdf/2412.10422) - *VLDB 2025*
+- [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://arxiv.org/abs/2412.06724) - *EMNLP Findings 2025*
+- [CleanAgent: Automating Data Standardization with LLM-based Agents](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DATAI/DATAI25_8.pdf) - *VLDB Workshop 2025*
+- [Exploring LLM Agents for Cleaning Tabular Machine Learning Datasets](https://arxiv.org/pdf/2503.06664) - *ICLR Workshop 2025*
+- [Weak-to-Strong Prompts with Lightweight-to-Powerful LLMs for High-Accuracy, Low-Cost, and Explainable Data Transformation](https://www.vldb.org/pvldb/vol18/p2371-tang.pdf) - *VLDB 2025*
+##### Data Integration
+- [Agent-OM: Leveraging LLM Agents for Ontology Matching](https://arxiv.org/pdf/2312.00326) - *VLDB 2024*
+- [Ontology Matching with Large Language Models and Prioritized Depth-First Search](https://arxiv.org/pdf/2501.11441) - *Information Fusion 2025*
+- [Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching](https://arxiv.org/pdf/2405.16884) - *COLING 2025*
+##### Data Discovery
+- [Chorus: Foundation Models for Unified Data Discovery and Exploration](https://dl.acm.org/doi/abs/10.14778/3659437.3659461) - *VLDB 2024*
+- [Data-driven Discovery with Large Generative Models](https://arxiv.org/pdf/2402.13610) - *arXiv 2024*
+- [DATALORE: Can a Large Language Model Find All Lost Scrolls in a Data Repository?](https://ieeexplore.ieee.org/abstract/document/10597732) - *ICDE 2024*
+- [LEDD: Large Language Model-Empowered Data Discovery in Data Lakes](https://arxiv.org/abs/2502.15182) - *arXiv 2025*
+- [Automated Metadata Generation Using Large Language Models: A GPT-4 Case Study for Enterprise Data Profiling](https://sarcouncil.com/download-article/SJECS-221-2025-769-775.pdf) - *Journal for Engineering and Computer Science 2025*
+- [Automatic database description generation for Text-to-SQL](https://arxiv.org/abs/2502.20657) - *arXiv 2025*
+- [Towards Operationalizing Heterogeneous Data Discovery](https://arxiv.org/pdf/2504.02059) - *arXiv 2025*
+#### Data Analysis
+##### TableQA
+- [StructGPT: A General Framework for Large Language Model to Reason over Structured Data](https://aclanthology.org/2023.emnlp-main.574/) - *EMNLP 2023*
+- [ReAcTable: Enhancing ReAct for Table Question Answering](https://dl.acm.org/doi/10.14778/3659437.3659452) - *VLDB 2024*
+- [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398) - *ICLR 2024*
+- [AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models](https://www.vldb.org/pvldb/vol17/p3920-zhu.pdf) - *VLDB 2024*
+- [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://aclanthology.org/2025.acl-long.853/) - *ACL 2025*
+##### NL2SQL
+- [MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL](https://arxiv.org/abs/2312.11242) - *COLING 2023*
+- [Chatbi: Towards natural language to complex business](https://arxiv.org/pdf/2405.00527) - *arXiv 2024*
+- [CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL](https://arxiv.org/abs/2410.01943) - *ICLR 2024*
+- [Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search](https://arxiv.org/pdf/2502.17248) - *ICML 2025*
+- [OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.](https://arxiv.org/pdf/2502.14913) - *SIGMOD 2025*
+- [ReFoRCE: A Text-to-SQL Agent with with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/pdf/2502.00675) - *arXiv 2025*
+- [DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework](https://www.arxiv.org/pdf/2510.17586) - *arXiv 2025*
+##### NL2VIS
+- [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/pdf/2402.11453) - *ACL 2024*
+- [Text2Chart31: Instruction Tuning for Chart Generation with Automatic Feedback](https://arxiv.org/pdf/2410.04064) - *EMNLP 2024*
+- [NVAGENT: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://arxiv.org/pdf/2502.05036) - *ACL 2025*
+- [DeepVIS: Bridging Natural Language and Data Visualization Through Step-wise Reasoning](https://arxiv.org/pdf/2508.01700) - *VIS 2025*
+##### Unstructured Data Analysis
+- [Active Retrieval Augmented Generation](https://arxiv.org/pdf/2305.06983) - *NIPS 2023*
+- [A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts](https://arxiv.org/pdf/2402.09727) - *ICML 2024*
+- [GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models](https://arxiv.org/pdf/2406.14550) - *EMNLP 2024*
+- [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/pdf/2310.11511) - *ICLR 2024*
+- [REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering](https://aclanthology.org/2024.emnlp-main.321.pdf) - *EMNLP 2024*
+- [QUEST: Query Optimization in Unstructured Document Analysis](https://dl.acm.org/doi/pdf/10.14778/3749646.3749713) - *VLDB 2025*
+- [Doctopus: Budget-aware Structural Table Extraction from Unstructured Documents](https://www.vldb.org/pvldb/vol18/p3695-chai.pdf) - *VLDB 2025*
+- [Visual Document Understanding and Question Answering: A Multi-Agent Collaboration Framework with Test-Time Scaling](https://arxiv.org/pdf/2508.03404) - *arXiv 2025*
+- [DataPuzzle: Breaking Free from the Hallucinated Promise of LLMs in Data Analysis](https://arxiv.org/abs/2504.10036) - *arXiv 2025*
+##### Report Generation
+- [DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts](https://aclanthology.org/2024.emnlp-main.1073/) - *EMNLP 2024*
+- [From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems](https://ieeexplore.ieee.org/document/10766492) - *VIS  workshop 2024*
+- [LightVA: Lightweight Visual Analytics with LLM Agent-Based Task Planning and Execution](https://ieeexplore.ieee.org/document/10753451) - *TVCG 2024*
+- [Multimodal DeepResearcher: Generating Text–Chart Interleaved Reports with an Agentic Framework](https://arxiv.org/abs/2506.02454) - *arXiv 2025*
+- [DAgent: A Relational Database-Driven Data Analysis Report Generation Agent](https://arxiv.org/abs/2503.13269) - *arXiv 2025*
+- [ChartInsighter: An Approach for Mitigating Hallucination in Time-Series Chart Summary Generation With a Benchmark Dataset](https://ieeexplore.ieee.org/document/10988687) - *TVCG 2025*
+- [ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent](https://arxiv.org/abs/2507.18165) - *VIS 2025*
+- [VOICE: Visual Oracle for Interaction, Conversation, and Explanation](https://ieeexplore.ieee.org/document/11037292) - *TVCG 2025*
+- [NLI4VolVis: Natural Language Interaction for Volume Visualization  via LLM Multi-Agents and Editable 3D Gaussian Splatting (VIS'25)](https://arxiv.org/abs/2507.12621) - *VIS 2025*

@@ -1,0 +1,67 @@
+#### Data Management
+##### Configuration Tuning
+- [LLMTune: Accelerate Database Knob Tuning with Large Language Models](https://arxiv.org/abs/2404.11581v1) - *arXiv 2024*
+- [λ-Tune: Harnessing Large Language Models for Automated Database System Tuning](https://dl.acm.org/doi/abs/10.1145/3709652) - *SIGMOD 2025*
+- [LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model](https://dl.acm.org/doi/abs/10.1007/978-3-031-70362-1_22) - *ECML PKDD 2024*
+- [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://vldb.org/pvldb/vol17/p1939-tang.pdf) - *VLDB 2024*
+- [E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model](https://arxiv.org/abs/2404.11581) - *VLDB 2025*
+##### Query Optimization
+- [DB-GPT: Large Language Model Meets Database](https://link.springer.com/article/10.1007/s41019-023-00235-6) - *Data Science and Engineering 2024*
+- [LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency](https://dl.acm.org/doi/abs/10.14778/3696435.3696440) - *VLDB 2024*
+- [Query Rewriting via Large Language Models](https://arxiv.org/abs/2403.09060) - *arXiv 2024*
+- [Query Rewriting via LLMs](https://arxiv.org/abs/2502.12918) - *arXiv 2025*
+- [Can Large Language Models Be Query Optimizer for Relational Databases?](https://arxiv.org/abs/2502.05562) - *arXiv 2025*
+- [A Query Optimization Method Utilizing Large Language Models](https://arxiv.org/abs/2503.06902) - *arXiv 2025*
+- [E3-Rewrite: Learning to Rewrite SQL for Executability, Equivalence, and Efficiency](https://arxiv.org/abs/2508.09023) - *arXiv 2025*
+##### System Diagnosis
+- [DBG-PT: A Large Language Model Assisted Query Performance Regression Debugger](https://dl.acm.org/doi/abs/10.14778/3685800.3685869) - *VLDB 2024*
+- [Automatic Database Configuration Debugging using Retrieval-Augmented Language Models](https://dl.acm.org/doi/abs/10.1145/3709663) - *SIGMOD 2025*
+#### Data Preparation
+##### Data Cleaning
+- [Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911) - *VLDB 2022*
+- [RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes](https://arxiv.org/abs/2303.16909) - *VLDB demo 2024*
+- [Data Imputation with Limited Data Redundancy Using Data Lakes](https://www.vldb.org/pvldb/vol18/p3354-tang.pdf) - *VLDB 2025*
+- [UNIDM: A UNIFIED FRAMEWORK FOR DATA MANIPULATION WITH LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2405.06510) - *MLSys 2024*
+- [LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs](https://arxiv.org/abs/2404.18681) - *ADBIS 2024*
+##### Data Integration
+- [Table-GPT: Table-tuned GPT for Diverse Table Tasks](https://arxiv.org/pdf/2310.09263) - *SIGMOD 2024*
+- [Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration](https://arxiv.org/pdf/2312.03987) - *ICDE 2024*
+- [Jellyfish: Instruction-Tuning Local Large Language Models for Data Preprocessing](https://aclanthology.org/2024.emnlp-main.497/) - *EMNLP 2024*
+##### Data Discovery
+- [ArcheType: A Novel Framework for Open-Source Column Type Annotation using Large Language Models](https://arxiv.org/pdf/2310.18208) - *VLDB 2024*
+- [RACOON: An LLM-based Framework for Retrieval-Augmented Column Type Annotation with a Knowledge Graph](https://arxiv.org/abs/2409.14556) - *arXiv 2024*
+- [Cocoon: Semantic table profiling using large language model](https://dl.acm.org/doi/abs/10.1145/3665939.3665957) - *HILDA 2024*
+- [Autoddg: Automated dataset description generation using large language models](https://arxiv.org/abs/2502.01050) - *arXiv 2025*
+- [Pneuma: Leveraging llms for tabular data representation and retrieval in an end-to-end system](https://dl.acm.org/doi/abs/10.1145/3725337) - *SIGMOD 2025*
+- [Evaluating Knowledge Generation and Self-refinement Strategies for LLM-Based Column Type Annotation](https://link.springer.com/chapter/10.1007/978-3-032-05281-0_8) - *ADBIS 2025*
+- [Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models](https://arxiv.org/abs/2508.09403) - *EMNLP 2025*
+#### Data Analysis
+##### TableQA
+- [Large Language Models are Versatile Decomposers: Decomposing Evidence and Questions for Table-based Reasoning](https://dl.acm.org/doi/10.1145/3539618.3591708) - *SIGIR 2023*
+- [Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875) - *ICLR 2023*
+- [Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study](https://dl.acm.org/doi/abs/10.1145/3616855.3635752) - *WSDM 2024*
+- [TableLlama: Towards Open Large Generalist Models for Tables](https://aclanthology.org/2024.naacl-long.335/) - *NAACL 2024*
+##### NL2SQL
+- [DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction.](https://arxiv.org/abs/2304.11015) - *NeurIPS 2023*
+- [Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation](https://arxiv.org/abs/2308.15363) - *VLDB 2023*
+- [ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought](https://arxiv.org/pdf/2310.17342) - *EMNLP 2023*
+- [The Dawn of Natural Language to SQL: Are We Fully Ready?](https://arxiv.org/pdf/2406.01265) - *VLDB 2024*
+##### NL2VIS
+- [Chat2VIS: Generating Data Visualizations via Natural Language Using ChatGPT, Codex and GPT-3 Large Language Models](https://ieeexplore.ieee.org/document/10121440) - *IEEE Access 2023*
+- [Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models](https://arxiv.org/html/2408.13391v2) - *VIS 2024*
+- [prompt4vis: prompting large language models with example mining for tabular data visualization: Prompt4Vis: prompting large language models with example mining](https://dl.acm.org/doi/abs/10.1007/s00778-025-00912-0) - *VLDB 2025*
+- [nvBench 2.0: Resolving Ambiguity in Text-to-Visualization through Stepwise Reasoning](https://arxiv.org/abs/2503.12880) - *NeuRIPS 2025*
+##### Unstructured Data Analysis
+- [LongRAG: A Dual-Perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering](https://aclanthology.org/2024.emnlp-main.1259.pdf) - *EMNLP 2024*
+- [RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval](https://arxiv.org/abs/2401.18059) - *ICLR 2024*
+- [PDFTriage: Question Answering over Long, Structured Documents](https://aclanthology.org/2024.emnlp-industry.13.pdf) - *EMNLP 2024*
+- [Unifying Multimodal Retrieval via Document Screenshot Embedding](https://arxiv.org/pdf/2406.11251) - *EMNLP 2024*
+- [VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation](https://aclanthology.org/2025.naacl-long.310.pdf) - *NAACL 2025*
+- [Docopilot: Improving Multimodal Models for Document-Level Understanding](https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Docopilot_Improving_Multimodal_Models_for_Document-Level_Understanding_CVPR_2025_paper.pdf) - *CVPR 2025*
+##### Report Generation
+- [DataTales: Investigating the use of Large Language Models for Authoring Data-Driven Articles](https://arxiv.org/abs/2308.04076) - *VIS 2023*
+- [Enhancing Data Literacy On-demand: LLMs as Guides for Novices in Chart Interpretation](https://ieeexplore.ieee.org/document/10555321) - *TVCG 2024*
+- [ReportGPT: Human‑in‑the‑Loop Verifiable Table‑to‑Text Generation](https://aclanthology.org/2024.emnlp-industry.39/) - *EMNLP Industry 2025*
+- [InterChat: Enhancing Generative Visual Analytics using Multimodal Interactions](https://onlinelibrary.wiley.com/doi/10.1111/cgf.70112?af=R) - *EuroVis 2025*
+- [VizTA: Enhancing Comprehension of Distributional Visualization with Visual-Lexical Fused Conversational Interface](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70110) - *EuroVis 2025*
+- [ChartLens: Fine-grained Visual Attribution in Charts](https://aclanthology.org/2025.acl-long.1094/) - *ACL 2025*
