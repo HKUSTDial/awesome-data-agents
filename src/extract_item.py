@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the Excel file
-file_path = 'src/paper_list.xlsx'
+file_path = 'src/paper_list.xlsx'  # Updated path as provided
 xls = pd.ExcelFile(file_path)
 
 # Function to process each sheet
@@ -14,6 +14,8 @@ def process_sheet(sheet_name):
         if len(df.columns) == 6:
             df.columns = ['Years', 'Data Agent', 'Paper', 'Link', 'Venue', 'Affiliation']
         relevant_cols = ['Data Agent', 'Paper', 'Link', 'Venue', 'Years', 'Affiliation']
+        # Convert Years to integer to remove .0, handle NaN safely
+        df['Years'] = df['Years'].apply(lambda x: int(x) if pd.notna(x) and x == x else '')
     else:
         if len(df.columns) == 7:
             df.columns = ['Category', 'Sub-domain', 'Data Agent', 'Paper', 'Link', 'Venue', 'Years']
@@ -21,6 +23,8 @@ def process_sheet(sheet_name):
         # Forward fill Category and Sub-domain
         df['Category'] = df['Category'].ffill()
         df['Sub-domain'] = df['Sub-domain'].ffill()
+        # Convert Years to integer to remove .0, handle NaN safely
+        df['Years'] = df['Years'].apply(lambda x: int(x) if pd.notna(x) and x == x else '')
     
     df = df[relevant_cols].dropna(subset=['Link'], how='all')  # Keep if there's a link
     
