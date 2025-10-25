@@ -16,6 +16,12 @@ def process_sheet(sheet_name):
         relevant_cols = ['Data Agent', 'Paper', 'Link', 'Venue', 'Years', 'Affiliation']
         # Convert Years to integer to remove .0, handle NaN safely
         df['Years'] = df['Years'].apply(lambda x: int(x) if pd.notna(x) and x == x else '')
+    elif sheet_name == 'survey':
+        if len(df.columns) == 4:
+            df.columns = ['Years', 'Paper', 'Link', 'Venue']
+        relevant_cols = ['Paper', 'Link', 'Venue', 'Years']
+        # Convert Years to integer to remove .0, handle NaN safely
+        df['Years'] = df['Years'].apply(lambda x: int(x) if pd.notna(x) and x == x else '')
     else:
         if len(df.columns) == 7:
             df.columns = ['Category', 'Sub-domain', 'Data Agent', 'Paper', 'Link', 'Venue', 'Years']
@@ -56,6 +62,27 @@ def process_sheet(sheet_name):
                 line = f"- [{paper}]({link}) - *{venue} {year}*"
             else:
                 line = f"- [{data_agent}]({link}) — *{affiliation}*"
+            lines.append(line)
+        elif sheet_name == 'survey':
+            paper = row['Paper'] if pd.notna(row['Paper']) else ''
+            link = row['Link'] if pd.notna(row['Link']) else ''
+            venue = row['Venue'] if pd.notna(row['Venue']) else ''
+            year = row['Years'] if pd.notna(row['Years']) else ''
+            
+            paper = str(paper).strip()
+            link = str(link).strip()
+            venue = str(venue).strip()
+            year = str(year).strip()
+            
+            if not paper and not link:
+                continue
+            
+            if paper and link:
+                line = f"- [{paper}]({link}) - *{venue} {year}*"
+            elif paper:
+                line = f"- {paper} - *{venue} {year}*"
+            else:
+                line = f"- [{link}]({link}) - *{venue} {year}*"
             lines.append(line)
         else:
             category = row['Category'] if pd.notna(row['Category']) else ''
@@ -102,7 +129,7 @@ def process_sheet(sheet_name):
     print(f"Generated: {txt_filename}")
 
 # Process each sheet
-sheets = ['L1', 'L2', 'L3']
+sheets = ['L1', 'L2', 'L3', 'survey']
 for sheet in sheets:
     process_sheet(sheet)
 

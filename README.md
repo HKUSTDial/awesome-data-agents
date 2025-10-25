@@ -4,11 +4,13 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-[![Talk (CN)](https://img.shields.io/badge/Talk_Slides-Chinese-blue.svg)](assets/从智能问数到数据智能体：范式演进与反思.pdf)
+
 
 </div>
 
-> Curated papers and resources on **Data Agents** — from the perspective of proposed *autonomy levels*. Companion list for our (incoming) survey.
+> Curated papers and resources on **Data Agents**. Companion list for our (incoming) survey of data agents: [[Paper]](reports/Data_Agents_Survey.pdf)
+>
+> We also release slides for a recent talk (Chinese): [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf)
 
 If you find this repository useful or inspiring, please kindly give us a star ⭐️ and cite our survey:
 
@@ -22,7 +24,7 @@ Coming soon
 - [Levels of Data Agents](#levels-of-data-agents)
 - [Paper List](#paper-list)
 
-## Introduction
+## 🎯 Introduction
 
 <p align="center"><img src="assets/overview.jpg" alt="Teaser" width="100%"></p>
 
@@ -30,12 +32,12 @@ The way humans interact with data is undergoing a profound transformation. Data 
 
 However, the term "data agent" is currently used inconsistently across research and industry, resulting in considerable ambiguity. Systems with vastly different capabilities in autonomy, reliability, and task complexity are often labeled the same way. This creates a terminological ambiguity leading to mismatched expectations and unclear accountability challenge user trust and healthy development of the field.
 
-This repository — a companion to our survey — introduces a layered taxonomy (L0-L5) for data agents based on their degree of autonomy, providing a common framework to clarify capability boundaries and lines of accountability at each level.
+This repository — a companion to our survey — introduces a hierarchical taxonomy (L0-L5) for data agents based on their degree of autonomy, providing a common framework to clarify capability boundaries and lines of accountability at each level.
 
 
-## Levels of Data Agents
+## 🪜 Levels of Data Agents
 
-As mentioned above, to bring clarity to the diverse landscape of data agents, we propose a layered taxonomy based on their degree of autonomy. This framework maps the progressive shift of responsibility from human to agent, defining the distinct roles each plays at every stage, as summarized in the overview figure and the table below. 
+As mentioned above, to bring clarity to the diverse landscape of data agents, we propose a hierarchical taxonomy based on their degree of autonomy. This framework maps the progressive shift of responsibility from human to agent, defining the distinct roles each plays at every stage, as summarized in the overview figure and the table below. 
 
 | Level | Degree of Autonomy | Human Role | Data Agent Role |
 |:-----:|------|------------|------------|
@@ -46,19 +48,19 @@ As mentioned above, to bring clarity to the diverse landscape of data agents, we
 | L4 | High Autonomy | Onlooker (Delegating) | Dominator (Proactive) |
 | L5 | Full Autonomy | N/A (None) | Dominator (Generative) |
 
-The transition between these levels represents more than just incremental progress; each step up the hierarchy requires a significant evolutionary leap as shown below. These leaps involve fundamental shifts in a data agent's capabilities—such as gaining environmental perception (L1→L2), achieving autonomous orchestrating and dominating the task (L2→L3), attaining proactive self-governance with supervision removed (L3→L4), or pioneering new paradigm (L4→L5).
+The transition between these levels represents more than just incremental progress; each step up the hierarchy requires a significant evolutionary leap as shown below. These leaps involve fundamental shifts in a data agent's capabilities—such as gaining environmental perception (L1→L2), achieving autonomous orchestrating and dominating the task (L2→L3), attaining proactive self-governance with supervision removed (L3→L4), and innovating or pioneering new paradigm (L4→L5).
 
-<p align="center"><img src="assets/leaps.jpg" alt="Leaps" width="90%"></p>
+<p align="center"><img src="assets/leaps.jpg" alt="Leaps" width="100%"></p>
 
 
-## Paper List
+## 📑 Paper List
 
 <p align="center"><img src="assets/representative_work.jpg" alt="Leaps" width="100%"></p>
 
 
 We index papers **by autonomy level**, then **by data-related tasks** across Data Management, Data Preparation, and Data Analysis. Most existing work clusters in L1–L3, L4–L5 are aspirational. We also list relevant surveys, tutorials and benchmarks.
 
-> ### L0-L1: From Manual Labor to Preliminary Assistance
+### 💬 L0-L1: From Manual Labor to Preliminary Assistance
 
 In L0 level, data-related tasks are performed entirely by human experts without any automation. The process is completely human-driven, requiring extensive domain knowledge and solid technical expertise, making it highly specialized and time-consuming.
 
@@ -69,9 +71,9 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 #### Data Management
 ##### Configuration Tuning
 - [LLMTune: Accelerate Database Knob Tuning with Large Language Models](https://arxiv.org/abs/2404.11581v1) - *arXiv 2024*
-- [λ-Tune: Harnessing Large Language Models for Automated Database System Tuning](https://dl.acm.org/doi/abs/10.1145/3709652) - *SIGMOD 2025*
 - [LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model](https://dl.acm.org/doi/abs/10.1007/978-3-031-70362-1_22) - *ECML PKDD 2024*
 - [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://vldb.org/pvldb/vol17/p1939-tang.pdf) - *VLDB 2024*
+- [λ-Tune: Harnessing Large Language Models for Automated Database System Tuning](https://dl.acm.org/doi/abs/10.1145/3709652) - *SIGMOD 2025*
 - [E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model](https://arxiv.org/abs/2404.11581) - *VLDB 2025*
 ##### Query Optimization
 - [DB-GPT: Large Language Model Meets Database](https://link.springer.com/article/10.1007/s41019-023-00235-6) - *Data Science and Engineering 2024*
@@ -134,7 +136,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 - [VizTA: Enhancing Comprehension of Distributional Visualization with Visual-Lexical Fused Conversational Interface](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70110) - *EuroVis 2025*
 - [ChartLens: Fine-grained Visual Attribution in Charts](https://aclanthology.org/2025.acl-long.1094/) - *ACL 2025*
 
-> ### L2: Perceive the Environment
+### 🌏 L2: Perceive the Environment
 
 <p align="center"><img src="assets/l2_agent.jpg" alt="L2" width="50%"></p>
 
@@ -196,7 +198,7 @@ At this level, data agents gain environmental perception and tool-invocation cap
 - [NVAGENT: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://arxiv.org/pdf/2502.05036) - *ACL 2025*
 - [DeepVIS: Bridging Natural Language and Data Visualization Through Step-wise Reasoning](https://arxiv.org/pdf/2508.01700) - *VIS 2025*
 ##### Unstructured Data Analysis
-- [Active Retrieval Augmented Generation](https://arxiv.org/pdf/2305.06983) - *NIPS 2023*
+- [Active Retrieval Augmented Generation](https://arxiv.org/pdf/2305.06983) - *NeurIPS 2023*
 - [A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts](https://arxiv.org/pdf/2402.09727) - *ICML 2024*
 - [GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models](https://arxiv.org/pdf/2406.14550) - *EMNLP 2024*
 - [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/pdf/2310.11511) - *ICLR 2024*
@@ -216,7 +218,7 @@ At this level, data agents gain environmental perception and tool-invocation cap
 - [VOICE: Visual Oracle for Interaction, Conversation, and Explanation](https://ieeexplore.ieee.org/document/11037292) - *TVCG 2025*
 - [NLI4VolVis: Natural Language Interaction for Volume Visualization  via LLM Multi-Agents and Editable 3D Gaussian Splatting (VIS'25)](https://arxiv.org/abs/2507.12621) - *VIS 2025*
 
-> ### Proto-L3: Striving for Autonomous Data Agents
+### 🤖 Proto-L3: Striving for Autonomous Data Agents
 
 <p align="center"><img src="assets/l3_agent.jpg" alt="L3" width="50%"></p>
 
@@ -229,13 +231,14 @@ Level L3 marks a critical transition where data agents evolve from procedural ex
 - [SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence](https://dl.acm.org/doi/10.14778/3750601.3750610) - *VLDB 2025*
 - [Data Interpreter: An LLM Agent For Data Science](https://arxiv.org/pdf/2402.18679) - *ACL Findings 2024*
 - [JoyAgent](https://github.com/jd-opensource/joyagent-jdgenie/tree/data_agent) — *JDCHO*
+- [TabTab](https://tabtabai.com/) — *TabTab AI*
 - [Assist. DS Agent](https://www.databricks.com/blog/introducing-databricks-assistant-data-science-agent) — *Databricks*
 - [Data Agent](https://www.volcengine.com/product/DataAgent) — *Bytedance*
 - [BigQuery](https://cloud.google.com/blog/products/data-analytics/a-closer-look-at-bigquery-data-engineering-agent) — *Google*
 - [Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) — *Snowflake*
 - [Xata Agent](https://xata.io/blog/dba-to-db-agent) — *Xata*
 
->### L4-L5: Vision of Proactive and Generative Data Agents
+### 🔮 L4-L5: Vision of Proactive and Generative Data Agents
 
 #### L4: Vision of Proactive Data Agents
 
@@ -249,21 +252,21 @@ The ultimate vision of fully autonomous data agents that can function as expert 
 
 <p align="center"><img src="assets/l5_agent.jpg" alt="L4" width="50%"></p>
 
-### Survey and Tutorial
+### 📚 Survey and Tutorial
 
-#### Survey
-- [Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey](https://dl.acm.org/doi/abs/10.1109/TKDE.2024.3400824) — *TKDE'24*
-- [A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://ieeexplore.ieee.org/abstract/document/11095853) — *TKDE'25*
-- [A Survey of LLM x DATA](https://arxiv.org/abs/2505.18458) — *arXiv*
-- [Large Language Models for Data Science: A Survey](https://openreview.net/forum?id=PiBQUGagoi) — *arXiv*
-- [A Survey on Large Language Model-based Agents for Statistics and Data Science](https://arxiv.org/abs/2412.14222) — *arXiv*
-- [Large Language Model-based Data Science Agent: A Survey](http://arxiv.org/abs/2508.02744) — *arXiv*
-- [Large Language Models for Data Discovery and Integration: Challenges and Opportunities](http://sites.computer.org/debull/A25mar/p3.pdf)  — *IEEE Data Eng. Bull. 2025*
-- [Large Language Models for Data Annotation and Synthesis: A Survey](http://aclanthology.org/2024.emnlp-main.54.pdf) — *EMNLP'24*
-- [Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems](https://arxiv.org/abs/2504.01990) — *arXiv*
-
-#### Tutorial 
-
-- [Data+AI: LLM4Data and Data4LLM](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/SIGMOD2025-Data+AI.pdf) — *SIGMOD'25 Tutorial*
-- [LLM for Data Management](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/p2031-li-vldb2024.pdf) — *VLDB'24 Tutorial*
+- [A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://ieeexplore.ieee.org/document/11095853) - *TKDE 2025*
+- [Natural Language to SQL: State of the Art and Open Problems](https://www.vldb.org/pvldb/vol18/p5466-luo.pdf) - *VLDB Tutorial 2025*
+- [A Survey of LLM × DATA](https://arxiv.org/abs/2505.18458) - *arXiv 2025*
+- [LLM/Agent-as-Data-Analyst: A Survey](https://arxiv.org/abs/2509.23988) - *arXiv 2025*
+- [Large Language Model-based Data Science Agent: A Survey](https://www.arxiv.org/abs/2508.02744) - *arXiv 2025*
+- [LLM-Based Data Science Agents: A Survey of Capabilities, Challenges, and Future Directions](https://arxiv.org/abs/2510.04023) - *arXiv 2025*
+- [Large Language Models for Data Science: A Survey](https://rgdoi.net/10.13140/RG.2.2.14003.75042) - *arXiv 2025*
+- [A Survey on Large Language Model-based Agents for Statistics and Data Science](https://arxiv.org/abs/2412.14222) - *The American Statistician 2025*
+- [Large Language Models for Data Discovery and Integration: Challenges and Opportunities](http://sites.computer.org/debull/A25mar/p3.pdf) - *IEEE Data Eng. Bull. 2025*
+- [Data+AI: LLM4Data and Data4LLM](https://dl.acm.org/doi/pdf/10.1145/3722212.3725641) - *SIGMOD Tutorial 2025*
+- [LLM for Data Management](https://www.vldb.org/pvldb/vol17/p4213-li.pdf) - *VLDB Tutorial 2024*
+- [Large Language Models for Data Annotation and Synthesis: A Survey](https://aclanthology.org/2024.emnlp-main.54.pdf) - *ACL 2024*
+- [Data Management for Machine Learning: A Survey](https://ieeexplore.ieee.org/document/9705125) - *TKDE 2023*
+- [LLM As DBA](https://arxiv.org/pdf/2308.05481) - *arXiv 2023*
+- [Demystifying Artificial Intelligence for Data Preparation](https://dl.acm.org/doi/pdf/10.1145/3555041.3589406) - *SIGMOD Tutorial 2023*
 
