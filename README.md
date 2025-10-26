@@ -8,7 +8,7 @@
 
 </div>
 
-> Curated papers and resources on **Data Agents**. Companion list for our (incoming) survey of data agents: [[Paper]](reports/Data_Agents_Survey.pdf)
+> Curated papers and resources on **Data Agents**. Companion list for our survey of data agents: [[Paper]](reports/Data_Agents_Survey.pdf)
 >
 > We also release slides for a recent talk (Chinese): [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf)
 
