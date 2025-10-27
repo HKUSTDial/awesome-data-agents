@@ -152,6 +152,7 @@ At this level, data agents gain environmental perception and tool-invocation cap
 - [SERAG: Self-Evolving RAG System for Query Optimization](https://viterbi-web.usc.edu/~sabek/pdf/25_workshop_serag.pdf) - *SIGMOD Workshop 2025*
 - [QUITE: A Query Rewrite System Beyond Rules with LLM Agents](https://arxiv.org/abs/2506.07675) - *arXiv 2025*
 - [R-Bot: An LLM-Based Query Rewrite System](https://arxiv.org/abs/2412.01661) - *VLDB 2025*
+- [Cracking SQL Barriers: An LLM-based Dialect Translation System](https://dl.acm.org/doi/10.1145/3725278) - *SIGMOD 2025*
 ##### System Diagnosis
 - [Panda: Performance Debugging for Databases using LLM Agents](https://www.vldb.org/cidrdb/papers/2024/p6-singh.pdf) - *CIDR 2024*
 - [D-Bot: Database Diagnosis System using Large Language Models](https://arxiv.org/abs/2312.01454) - *VLDB 2024*
@@ -184,6 +185,7 @@ At this level, data agents gain environmental perception and tool-invocation cap
 - [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398) - *ICLR 2024*
 - [AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models](https://www.vldb.org/pvldb/vol17/p3920-zhu.pdf) - *VLDB 2024*
 - [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://aclanthology.org/2025.acl-long.853/) - *ACL 2025*
+- [ST-Raptor: LLM-Powered Semi-Structured Table Question Answering](https://arxiv.org/abs/2508.18190) - *SIGMOD 2026*
 ##### NL2SQL
 - [MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL](https://arxiv.org/abs/2312.11242) - *COLING 2023*
 - [Chatbi: Towards natural language to complex business](https://arxiv.org/pdf/2405.00527) - *arXiv 2024*
