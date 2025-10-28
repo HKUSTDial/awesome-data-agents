@@ -8,7 +8,7 @@
 
 </div>
 
-> Curated papers and resources on **Data Agents**. Companion list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](reports/Data_Agents_Survey.pdf)
+> Curated papers and resources on **Data Agents**. Companion repo and paper list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](reports/Data_Agents_Survey.pdf)
 >
 > We also release slides for a recent talk (Chinese): [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf)
 
@@ -28,9 +28,20 @@ If you find this repository useful or inspiring, please kindly give us a star �
 
 ## Contents
 
-- [Introduction](#introduction)
-- [Levels of Data Agents](#levels-of-data-agents)
-- [Paper List](#paper-list)
+- [🎯 Introduction](#introduction)
+- [🪜 Levels of Data Agents](#levels-of-data-agents) 
+- [📑 Paper List](#paper-list)
+  - [💬 L0-L1: From Manual Labor to Preliminary Assistance](#-l0-l1-from-manual-labor-to-preliminary-assistance)
+    - [Data Management](#data-management)
+    - [Data Preparation](#data-preparation)
+    - [Data Analysis](#data-analysis)
+  - [🌏 L2: Perceive the Environment](#-l2-perceive-the-environment)
+    - [Data Management](#data-management-1)
+    - [Data Preparation](#data-preparation-1)
+    - [Data Analaysis](#data-analysis-1)
+  - [🤖 Proto-L3: Striving for Autonomous Data Agents](#-proto-l3-striving-for-autonomous-data-agents)
+  - [🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)](#-l4-l5-vision-of-proactive-and-generative-data-agents-prospect)
+  - [📚 Survey and Tutorial](#-survey-and-tutorial)
 
 ## 🎯 Introduction
 
@@ -248,7 +259,7 @@ Level L3 marks a critical transition where data agents evolve from procedural ex
 - [Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) — *Snowflake*
 - [Xata Agent](https://xata.io/blog/dba-to-db-agent) — *Xata*
 
-### 🔮 L4-L5: Vision of Proactive and Generative Data Agents
+### 🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)
 
 #### L4: Vision of Proactive Data Agents
 
