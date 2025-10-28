@@ -1,5 +1,5 @@
 
-<h1 align="center">Awesome Data Agents</h1>
+<h1 align="center">🌟 Awesome Data Agents 🌟</h1>
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
@@ -8,11 +8,12 @@
 
 </div>
 
+> [!NOTE]
 > Curated papers and resources on **Data Agents**. Companion repo and paper list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](reports/Data_Agents_Survey.pdf)
 >
 > We also release slides for a recent talk (Chinese): [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf)
-
-If you find this repository useful or inspiring, please kindly give us a star ⭐️ and cite our survey:
+>
+> If you find our work useful or inspiring, please kindly give us a star ⭐️ and cite our survey:
 
 ```bibtex
 @misc{zhu2025surveydataagentsemerging,
@@ -47,11 +48,12 @@ If you find this repository useful or inspiring, please kindly give us a star �
 
 <p align="center"><img src="assets/overview.jpg" alt="Teaser" width="100%"></p>
 
-The way humans interact with data is undergoing a profound transformation. Data agents — LLM-powered systems designed to orchestrate the Data + AI ecosystem — are emerging as a promising solution for automating and democratizing data-related tasks across its lifecycle, from management and preparation to analysis.
+The rapid advancement of large language models (LLMs) has spurred the emergence of data agents — autonomous systems designed to orchestrate Data + AI ecosystems for tackling complex data-related tasks. However, the term "data agent" currently suffers from terminological ambiguity and inconsistent adoption, conflating simple query responders with sophisticated autonomous architectures. This terminological ambiguity fosters mismatched user expectations, accountability challenges, and barriers to industry growth.
 
-However, the term "data agent" is currently used inconsistently across research and industry, resulting in considerable ambiguity. Systems with vastly different capabilities in autonomy, reliability, and task complexity are often labeled the same way. This creates a terminological ambiguity leading to mismatched expectations and unclear accountability challenge user trust and healthy development of the field.
+Inspired by the SAE J3016 standard for driving automation, this survey introduces the first systematic hierarchical taxonomy for data agents, comprising six levels that delineate and trace progressive shifts in autonomy, from manual operations (L0) to a vision of generative, fully autonomous data agents (L5), thereby clarifying capability boundaries and responsibility allocation. 
 
-This repository — a companion to our survey — introduces a hierarchical taxonomy (L0-L5) for data agents based on their degree of autonomy, providing a common framework to clarify capability boundaries and lines of accountability at each level.
+Through this lens, we offer a structured review of existing research arranged by increasing autonomy, encompassing specialized data agents for data management, preparation, and analysis, alongside emerging efforts toward versatile, comprehensive systems with enhanced autonomy. We further analyze critical evolutionary leaps and technical gaps for advancing data agents, especially the ongoing L2-to-L3 transition, where data agents evolve from procedural execution to autonomous orchestration.
+Finally, we conclude with a forward-looking roadmap, envisioning the advent of proactive, generative data agents.
 
 
 ## 🪜 Levels of Data Agents
@@ -77,7 +79,7 @@ The transition between these levels represents more than just incremental progre
 <p align="center"><img src="assets/representative_work.jpg" alt="Leaps" width="100%"></p>
 
 
-We index papers **by autonomy level**, then **by data-related tasks** across Data Management, Data Preparation, and Data Analysis. Most existing work clusters in L1–L3, L4–L5 are aspirational. We also list relevant surveys, tutorials and benchmarks.
+We index papers **by autonomy level**, then **by data-related tasks** across Data Management, Data Preparation, and Data Analysis. Most existing work clusters in L1–L3, while L4–L5 are aspirational. We also list relevant surveys and tutorials.
 
 ### 💬 L0-L1: From Manual Labor to Preliminary Assistance
 
@@ -159,7 +161,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 
 <p align="center"><img src="assets/l2_agent.jpg" alt="L2" width="50%"></p>
 
-At this level, data agents gain environmental perception and tool-invocation capabilities, enabling them to execute bounded sub-tasks and multi-step procedures. While they can follow human-orchestrated workflows, the overall process is still dominated by human direction.
+At L2, data agents gain the ability to perceive and interact with their environment, including data lakes, code interpreters, APIs, and other resources. In addition, L2 data agents can possess memory, invoke external tools, and adaptively optimize their actions based on environmental feedback, enabling partial autonomy in task-specific procedures. At this level, they evolve from simple responders to procedural executors operating within human-orchestrated pipelines, where humans remain responsible for managing the overall workflow and still retain dominance over data-related tasks.
 
 #### Data Management
 ##### Configuration Tuning
@@ -243,7 +245,8 @@ At this level, data agents gain environmental perception and tool-invocation cap
 
 <p align="center"><img src="assets/l3_agent.jpg" alt="L3" width="50%"></p>
 
-Level L3 marks a critical transition where data agents evolve from procedural executors into autonomous directors for data-related tasks. At this stage, they can independently decompose high-level goals, orchestrate and optimize tailored, end-to-end pipelines, shifting the human to a supervisory role. While recent pioneering efforts show promise, they are largely considered very early-stage "Proto-L3" systems. Consequently, the pursuit of more autonomous, reliable, versitile and comprehensive L3 data agents remains a key objective in both academia and industry.
+L3 data agents are expected to autonomously orchestrate tailored data pipelines for a wide range of diverse and comprehensive data-related tasks under supervision, extending beyond human-defined workflows or specific tasks. This level marks a critical transition in which the data agent assumes a dominant role in data-related tasks, while humans act as supervisors overseeing the data agents' operation.
+To date, no existing system has fully realized such versatile, self-directed orchestration capabilities that define a complete L3 data agent. However, emerging efforts from both academia and industry are beginning to address these challenges, giving rise to what we term "Proto-L3" data agents.
 
 - [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002) - *arXiv 2025*
 - [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *arXiv 2025*
@@ -263,13 +266,13 @@ Level L3 marks a critical transition where data agents evolve from procedural ex
 
 #### L4: Vision of Proactive Data Agents
 
-Data agents at L4 can achieve sustained self-governance with proactive monitoring and optimization across the data lifecycle. They can operate autonomously for extended periods without human supervision, actively providing insights and feedback while maintaining reliability.
+At L4, data agents are expected to achieve a high level of autonomy and reliability, eliminating the need for human supervision and explicit task instructions. They can proactively identify issues worthy of investigation through continuous monitoring and exploration of data lakes, and selectively orchestrate pipelines to tackle self-discovered problems. At this level, data agents take initiative in their operations while humans fully delegate responsibility, becoming onlookers.
 
 <p align="center"><img src="assets/l4_agent.jpg" alt="L4" width="50%"></p>
 
 #### L5: The Ultimate Vision of Ubiquitous and Generative Data Agents
 
-The ultimate vision of fully autonomous data agents that can function as expert data scientists, capable of knowledge creation and paradigm innovation for data-related tasks.
+At the ultimate level of L5, beyond applying existing methods, data agents are envisioned to be capable of inventing novel solutions and pioneering new paradigms. In doing so, they advance the state-of-the-art in data management, preparation, and analysis, making any form of human involvement unnecessary.
 
 <p align="center"><img src="assets/l5_agent.jpg" alt="L4" width="50%"></p>
 
