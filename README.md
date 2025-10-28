@@ -3,19 +3,27 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.23587-b31b1b.svg?style=flat)](https://arxiv.org/abs/2510.23587)
 
 
 </div>
 
-> Curated papers and resources on **Data Agents**. Companion list for our survey of data agents: [[Paper]](reports/Data_Agents_Survey.pdf)
+> Curated papers and resources on **Data Agents**. Companion list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](reports/Data_Agents_Survey.pdf)
 >
 > We also release slides for a recent talk (Chinese): [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf)
 
 If you find this repository useful or inspiring, please kindly give us a star ⭐️ and cite our survey:
 
 ```bibtex
-Coming soon
+@misc{zhu2025surveydataagentsemerging,
+      title={A Survey of Data Agents: Emerging Paradigm or Overstated Hype?}, 
+      author={Yizhang Zhu and Liangwei Wang and Chenyu Yang and Xiaotian Lin and Boyan Li and Wei Zhou and Xinyu Liu and Zhangyang Peng and Tianqi Luo and Yu Li and Chengliang Chai and Chong Chen and Shimin Di and Ju Fan and Ji Sun and Nan Tang and Fugee Tsung and Jiannan Wang and Chenglin Wu and Yanwei Xu and Shaolei Zhang and Yong Zhang and Xuanhe Zhou and Guoliang Li and Yuyu Luo},
+      year={2025},
+      eprint={2510.23587},
+      archivePrefix={arXiv},
+      primaryClass={cs.DB},
+      url={https://arxiv.org/abs/2510.23587}, 
+}
 ```
 
 ## Contents
