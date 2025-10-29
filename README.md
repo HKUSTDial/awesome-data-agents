@@ -39,7 +39,7 @@
   - [🌏 L2: Perceive the Environment](#-l2-perceive-the-environment)
     - [Data Management](#data-management-1)
     - [Data Preparation](#data-preparation-1)
-    - [Data Analaysis](#data-analysis-1)
+    - [Data Analysis](#data-analysis-1)
   - [🤖 Proto-L3: Striving for Autonomous Data Agents](#-proto-l3-striving-for-autonomous-data-agents)
   - [🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)](#-l4-l5-vision-of-proactive-and-generative-data-agents-prospect)
   - [📚 Survey and Tutorial](#-survey-and-tutorial)
@@ -87,7 +87,7 @@ In L0 level, data-related tasks are performed entirely by human experts without 
 
 <p align="center"><img src="assets/l1_agent.jpg" alt="L1" width="50%"></p>
 
-At L1 level, data agents start to have the capabilities to provide preliminary and single-point assistance through typical question-answering interactions. While they can help with atomic tasks like code peices generation, they lack environmental perception and require considerable human validation, editing, and optimization.
+At L1 level, data agents start to have the capabilities to provide preliminary and single-point assistance through typical question-answering interactions. While they can help with atomic tasks like code pieces generation, they lack environmental perception and require considerable human validation, editing, and optimization.
 
 #### Data Management
 ##### Configuration Tuning
@@ -213,7 +213,7 @@ At L2, data agents gain the ability to perceive and interact with their environm
 - [CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL](https://arxiv.org/abs/2410.01943) - *ICLR 2024*
 - [Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search](https://arxiv.org/pdf/2502.17248) - *ICML 2025*
 - [OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.](https://arxiv.org/pdf/2502.14913) - *SIGMOD 2025*
-- [ReFoRCE: A Text-to-SQL Agent with with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/pdf/2502.00675) - *arXiv 2025*
+- [ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/pdf/2502.00675) - *arXiv 2025*
 - [DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework](https://www.arxiv.org/pdf/2510.17586) - *arXiv 2025*
 ##### NL2VIS
 - [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/pdf/2402.11453) - *ACL 2024*
