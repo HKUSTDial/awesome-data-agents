@@ -36,13 +36,19 @@
     - [Data Management](#data-management)
     - [Data Preparation](#data-preparation)
     - [Data Analysis](#data-analysis)
+    - [Comparison of L1 Data Agents](#comparison-of-l1-data-agents)
   - [🌏 L2: Perceive the Environment](#-l2-perceive-the-environment)
     - [Data Management](#data-management-1)
     - [Data Preparation](#data-preparation-1)
     - [Data Analysis](#data-analysis-1)
+    - [Comparison of L2 Data Agents](#comparison-of-l2-data-agents)
   - [🤖 Proto-L3: Striving for Autonomous Data Agents](#-proto-l3-striving-for-autonomous-data-agents)
+    - [Academia Research](#academia-research)
+    - [Industry Products](#industry-products)
+    - [Comparison of Proto-L3 Data Agents](#comparison-of-proto-l3-data-agents-from-academia-research-and-industry-products)
   - [🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)](#-l4-l5-vision-of-proactive-and-generative-data-agents-prospect)
   - [📚 Survey and Tutorial](#-survey-and-tutorial)
+- [🔬 Research Opportunites](#-research-opportunities)
 
 ## 🎯 Introduction
 
@@ -157,6 +163,10 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 - [VizTA: Enhancing Comprehension of Distributional Visualization with Visual-Lexical Fused Conversational Interface](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70110) - *EuroVis 2025*
 - [ChartLens: Fine-grained Visual Attribution in Charts](https://aclanthology.org/2025.acl-long.1094/) - *ACL 2025*
 
+#### Comparison of L1 Data Agents
+ICL: In-Context Learning; RAG: Retrieval-Augmented Generation; SFT: Supervised Fine-Tuning; RL: Reinforcement Learning. Data complexity dimensions include Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.) data support.
+<p align="center"><img src="assets/l1_comparison.png" width="100%"></p>
+
 ### 🌏 L2: Perceive the Environment
 
 <p align="center"><img src="assets/l2_agent.jpg" alt="L2" width="50%"></p>
@@ -241,6 +251,10 @@ At L2, data agents gain the ability to perceive and interact with their environm
 - [VOICE: Visual Oracle for Interaction, Conversation, and Explanation](https://ieeexplore.ieee.org/document/11037292) - *TVCG 2025*
 - [NLI4VolVis: Natural Language Interaction for Volume Visualization  via LLM Multi-Agents and Editable 3D Gaussian Splatting (VIS'25)](https://arxiv.org/abs/2507.12621) - *VIS 2025*
 
+#### Comparison of L2 Data Agents
+RAG: Retrieval-Augmented Generation; Percept: Environmental Perception; Plan: Planning; Mem: Memory; Tool: Tool invocation; Reflect: Self-reflection mechanism; MAS: Multi-agent system; SFT: Supervised Fine-Tuning; RL: Reinforcement Learning. Data complexity dimensions include Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.) data support.
+<p align="center"><img src="assets/l2_comparison.png" width="100%"></p>
+
 ### 🤖 Proto-L3: Striving for Autonomous Data Agents
 
 <p align="center"><img src="assets/l3_agent.jpg" alt="L3" width="50%"></p>
@@ -248,12 +262,15 @@ At L2, data agents gain the ability to perceive and interact with their environm
 L3 data agents are expected to autonomously orchestrate tailored data pipelines for a wide range of diverse and comprehensive data-related tasks under supervision, extending beyond human-defined workflows or specific tasks. This level marks a critical transition in which the data agent assumes a dominant role in data-related tasks, while humans act as supervisors overseeing the data agents' operation.
 To date, no existing system has fully realized such versatile, self-directed orchestration capabilities that define a complete L3 data agent. However, emerging efforts from both academia and industry are beginning to address these challenges, giving rise to what we term "Proto-L3" data agents.
 
+#### Academia Research
 - [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002) - *arXiv 2025*
 - [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *arXiv 2025*
 - [AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries](https://www.vldb.org/cidrdb/papers/2025/p32-wang.pdf) - *CIDR 2025*
 - [iDataLake: An LLM-Powered Analytics System on Data Lakes](http://sites.computer.org/debull/A25mar/p57.pdf) - *IEEE Data Engineering Bulletin 2025*
 - [SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence](https://dl.acm.org/doi/10.14778/3750601.3750610) - *VLDB 2025*
 - [Data Interpreter: An LLM Agent For Data Science](https://arxiv.org/pdf/2402.18679) - *ACL Findings 2024*
+
+#### Industry Products
 - [JoyAgent](https://github.com/jd-opensource/joyagent-jdgenie/tree/data_agent) — *JDCHO*
 - [TabTab](https://tabtabai.com/) — *TabTab AI*
 - [Assist. DS Agent](https://www.databricks.com/blog/introducing-databricks-assistant-data-science-agent) — *Databricks*
@@ -261,6 +278,10 @@ To date, no existing system has fully realized such versatile, self-directed orc
 - [BigQuery](https://cloud.google.com/blog/products/data-analytics/a-closer-look-at-bigquery-data-engineering-agent) — *Google*
 - [Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) — *Snowflake*
 - [Xata Agent](https://xata.io/blog/dba-to-db-agent) — *Xata*
+
+#### Comparison of Proto-L3 Data Agents from Academia Research and Industry Products
+Compares Open-source: availability; Undef Ops.: capabilities in utilizing unpredefined operators; data-related task coverage across data management, preparation, analysis; data complexity dimensions: Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.)
+<p align="center"><img src="assets/l3_comparison.png" width="100%"></p>
 
 ### 🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)
 
@@ -294,3 +315,34 @@ At the ultimate level of L5, beyond applying existing methods, data agents are e
 - [LLM As DBA](https://arxiv.org/pdf/2308.05481) - *arXiv 2023*
 - [Demystifying Artificial Intelligence for Data Preparation](https://dl.acm.org/doi/pdf/10.1145/3555041.3589406) - *SIGMOD Tutorial 2023*
 
+## 🔬 Research Opportunities
+
+Enhancing the core components of data agents can involve advancing five key aspects: **Perception** (e.g., environmental understanding), **Planning** (e.g., task decomposition and reflection), **Actions** (e.g., autonomous pipeline orchestration), **Tools** (e.g., tool invocation and discovery), and **Memory** (e.g., strategic knowledge retention).
+
+<p align="center"><img src="assets/opportunities_talk_cn.png" width="100%"></p>
+
+Our survey also identifies and discusses that while significant progress has been made, a substantial chasm still separates current "Proto-L3" systems from the expected true L3 autonomy. Bridging this gap, and eventually progressing to L4/L5, requires addressing several fundamental challenges, which represent key research opportunities for the field. For more information, please refer to our [[Survey]](reports/Data_Agents_Survey.pdf) and [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf) of a recent (Chineses) talk.
+
+### The Critical L2-to-L3 Transition
+The primary bottleneck lies in elevating data agents from **procedural executors (L2)** to **autonomous dominators (L3)**. As highlighted in the figure above, this requires significant advancements across five key aspects of agentic architecture: **Perception, Planning, Actions, Tools, and Memory**. Successfully bridging this gap involves overcoming four main deficiencies:
+
+* **1. Limited Autonomy in Pipeline Orchestration:**
+    Current data agents heavily rely on a *predefined set of operators and tools*. While some systems demonstrate "Tool Evolution" through recombination, a key opportunity lies in **automatic data-skill discovery**. Future research should focus on enabling data agents to *generate, validate, and deploy* emergent skills *ab initio*, transcending fixed toolsets.
+
+* **2. Incomplete Coverage of the Data Lifecycle:**
+    Most Proto-L3 systems are "predominantly centered on data analysis". Crucial **data management tasks**—such as configuration tuning, system diagnosis, and query optimization—remain "largely unaddressed". A major research direction is enhancing data agent **versatility** to create "data experts" that can reason about and autonomously orchestrate tasks across the *full data lifecycle*.
+
+* **3. Deficiencies in Advanced Reasoning:**
+    Data agents exhibit strong *tactical* capabilities (e.g., fixing immediate errors) but lack *strategic* "higher-order reasoning". This can trap them in "unproductive loops". This highlights a need for research in **integrated causal reasoning and meta-reasoning**. Furthermore, data agents require **sophisticated memory architectures** that capture abstract strategic knowledge, not just task execution history.
+
+* **4. Inadequate Adaptation to Dynamic Environments:**
+    Most systems are designed and evaluated against *static data and tasks*. They lack the ability to "genuinely self-evolve" when faced with data drift or changing schemas. Developing **effective and human-free adaptation methods**—and **robust evaluation benchmarks** for dynamic conditions—remains a promising and critical research direction.
+
+### The L4-L5 Vision: The Research Odyssey Ahead
+Moving beyond L3 supervision towards proactive (L4) and generative (L5) data agents presents a long-term research odyssey. Key frontiers include:
+
+* **Autonomous Problem Discovery (L4):** Shifting from *reacting* to user tasks to *proactively* identifying valuable tasks. This requires endowing data agents with **intrinsic motivation** and "curiosity" to independently monitor and explore data lakes to discover anomalies or opportunities worthy of investigation.
+
+* **Long-Horizon and Holistic Planning (L4):** Moving beyond local, step-by-step optimization to **long-horizon planning**. L4 data agents must be able to make strategic trade-offs, such as balancing the immediate cost of data cleaning against long-term analytical benefits.
+
+* **Generative Innovation (L5):** The ultimate vision is a data agent that can *innovate and pioneer new paradigms*. Instead of merely applying existing methods, an L5 data agent would recognize the limitations of current approaches and *invent novel algorithms, theories, or frameworks* to advance the state-of-the-art.
