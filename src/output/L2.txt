@@ -4,6 +4,7 @@
 - [LLMIdxAdvis: Resource-Efficient Index Advisor Utilizing Large Language Model](https://arxiv.org/abs/2503.07884) - *arXiv 2025*
 - [Rabbit: Retrieval-Augmented Generation Enables Better Automatic Database Knob Tuning](https://ieeexplore.ieee.org/document/11113071) - *ICDE 2025*
 - [MCTuner: Spatial Decomposition-Enhanced Database Tuning via LLM-Guided Exploration](https://arxiv.org/abs/2509.06298) - *arXiv 2025*
+- [AgentTune: An Agent-Based Large Language Model Framework for Database Knob Tuning](https://dl.acm.org/doi/10.1145/3769758) - *SIGMOD 2026*
 ##### Query Optimization
 - [SERAG: Self-Evolving RAG System for Query Optimization](https://viterbi-web.usc.edu/~sabek/pdf/25_workshop_serag.pdf) - *SIGMOD Workshop 2025*
 - [QUITE: A Query Rewrite System Beyond Rules with LLM Agents](https://arxiv.org/abs/2506.07675) - *arXiv 2025*
@@ -48,7 +49,7 @@
 - [CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL](https://arxiv.org/abs/2410.01943) - *ICLR 2024*
 - [Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search](https://arxiv.org/pdf/2502.17248) - *ICML 2025*
 - [OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.](https://arxiv.org/pdf/2502.14913) - *SIGMOD 2025*
-- [ReFoRCE: A Text-to-SQL Agent with with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/pdf/2502.00675) - *arXiv 2025*
+- [ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/pdf/2502.00675) - *arXiv 2025*
 - [DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework](https://www.arxiv.org/pdf/2510.17586) - *arXiv 2025*
 ##### NL2VIS
 - [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/pdf/2402.11453) - *ACL 2024*
