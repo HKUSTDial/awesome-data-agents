@@ -118,7 +118,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 - [Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911) - *VLDB 2022*
 - [RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes](https://arxiv.org/abs/2303.16909) - *VLDB demo 2024*
 - [Data Imputation with Limited Data Redundancy Using Data Lakes](https://www.vldb.org/pvldb/vol18/p3354-tang.pdf) - *VLDB 2025*
-- [UNIDM: A UNIFIED FRAMEWORK FOR DATA MANIPULATION WITH LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2405.06510) - *MLSys 2024*
+- [Unidm: A unified framework for data manipulation with large language models](https://arxiv.org/pdf/2405.06510) - *MLSys 2024*
 - [LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs](https://arxiv.org/abs/2404.18681) - *ADBIS 2024*
 ##### Data Integration
 - [Table-GPT: Table-tuned GPT for Diverse Table Tasks](https://arxiv.org/pdf/2310.09263) - *SIGMOD 2024*
@@ -146,7 +146,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 ##### NL2VIS
 - [Chat2VIS: Generating Data Visualizations via Natural Language Using ChatGPT, Codex and GPT-3 Large Language Models](https://ieeexplore.ieee.org/document/10121440) - *IEEE Access 2023*
 - [Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models](https://arxiv.org/html/2408.13391v2) - *VIS 2024*
-- [prompt4vis: prompting large language models with example mining for tabular data visualization: Prompt4Vis: prompting large language models with example mining](https://dl.acm.org/doi/abs/10.1007/s00778-025-00912-0) - *VLDB 2025*
+- [Prompt4Vis: Prompting Large Language Models with Example Mining for Tabular Data Visualization](https://link.springer.com/article/10.1007/s00778-025-00912-0) - *VLDBJ 2025*
 - [nvBench 2.0: Resolving Ambiguity in Text-to-Visualization through Stepwise Reasoning](https://arxiv.org/abs/2503.12880) - *NeurIPS 2025*
 ##### Unstructured Data Analysis
 - [LongRAG: A Dual-Perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering](https://aclanthology.org/2024.emnlp-main.1259.pdf) - *EMNLP 2024*
