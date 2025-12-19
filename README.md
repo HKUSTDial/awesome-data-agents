@@ -6,24 +6,22 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2510.23587-b31b1b.svg?style=flat)](https://arxiv.org/abs/2510.23587)
 
 
+
 </div>
 
 > [!NOTE]
 > Curated papers and resources on **Data Agents**. Companion repo and paper list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](reports/Data_Agents_Survey.pdf)
 >
-> We also release slides for a recent talk (Chinese): [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf)
+> We also release slides for a recent talk: [[Slides]](slides/DataAgents_Gauss_Webinar.pdf)
 >
 > If you find our work useful or inspiring, please kindly give us a star ⭐️ and cite our survey:
 
 ```bibtex
-@misc{zhu2025surveydataagentsemerging,
-      title={A Survey of Data Agents: Emerging Paradigm or Overstated Hype?}, 
-      author={Yizhang Zhu and Liangwei Wang and Chenyu Yang and Xiaotian Lin and Boyan Li and Wei Zhou and Xinyu Liu and Zhangyang Peng and Tianqi Luo and Yu Li and Chengliang Chai and Chong Chen and Shimin Di and Ju Fan and Ji Sun and Nan Tang and Fugee Tsung and Jiannan Wang and Chenglin Wu and Yanwei Xu and Shaolei Zhang and Yong Zhang and Xuanhe Zhou and Guoliang Li and Yuyu Luo},
-      year={2025},
-      eprint={2510.23587},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB},
-      url={https://arxiv.org/abs/2510.23587}, 
+@article{zhu2025survey,
+  title={A Survey of Data Agents: Emerging Paradigm or Overstated Hype?},
+  author={Zhu, Yizhang and Wang, Liangwei and Yang, Chenyu and Lin, Xiaotian and Li, Boyan and Zhou, Wei and Liu, Xinyu and Peng, Zhangyang and Luo, Tianqi and Li, Yu and others},
+  journal={arXiv preprint arXiv:2510.23587},
+  year={2025}
 }
 ```
 
@@ -322,7 +320,7 @@ Enhancing the core components of data agents can involve advancing five key aspe
 
 <p align="center"><img src="assets/opportunities_talk_cn.png" width="100%"></p>
 
-Our survey also identifies and discusses that while significant progress has been made, a substantial chasm still separates current "Proto-L3" systems from the expected true L3 autonomy. Bridging this gap, and eventually progressing to L4/L5, requires addressing several fundamental challenges, which represent key research opportunities for the field. For more information, please refer to our [[Survey]](reports/Data_Agents_Survey.pdf) and [[Slides]](slides/从智能问数到数据智能体：范式演进与反思.pdf) of a recent (Chinese) talk.
+Our survey also identifies and discusses that while significant progress has been made, a substantial chasm still separates current "Proto-L3" systems from the expected true L3 autonomy. Bridging this gap, and eventually progressing to L4/L5, requires addressing several fundamental challenges, which represent key research opportunities for the field. For more information, please refer to our [[Survey]](reports/Data_Agents_Survey.pdf) and [[Slides]](slides/DataAgents_Gauss_Webinar.pdf) of a recent talk.
 
 ### The Critical L2-to-L3 Transition
 The primary bottleneck lies in elevating data agents from **procedural executors (L2)** to **autonomous dominators (L3)**. As highlighted in the figure above, this requires significant advancements across five key aspects of agentic architecture: **Perception, Planning, Actions, Tools, and Memory**. Successfully bridging this gap involves overcoming four main deficiencies:
