@@ -12,7 +12,7 @@
 > [!NOTE]
 > Curated papers and resources on **Data Agents**. Companion repo and paper list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](reports/Data_Agents_Survey.pdf)
 >
-> We also release slides for a recent talk: [[Slides]](slides/DataAgents_Gauss_Webinar.pdf)
+> We also released slides for a recent talk: [[Slides]](slides/DataAgents_Squirrel_Webinar.pdf)
 >
 > If you find our work useful or inspiring, please kindly give us a star ⭐️ and cite our survey:
 
@@ -320,7 +320,7 @@ Enhancing the core components of data agents can involve advancing five key aspe
 
 <p align="center"><img src="assets/opportunities_talk_cn.png" width="100%"></p>
 
-Our survey also identifies and discusses that while significant progress has been made, a substantial chasm still separates current "Proto-L3" systems from the expected true L3 autonomy. Bridging this gap, and eventually progressing to L4/L5, requires addressing several fundamental challenges, which represent key research opportunities for the field. For more information, please refer to our [[Survey]](reports/Data_Agents_Survey.pdf) and [[Slides]](slides/DataAgents_Gauss_Webinar.pdf) of a recent talk.
+Our survey also identifies and discusses that while significant progress has been made, a substantial chasm still separates current "Proto-L3" systems from the expected true L3 autonomy. Bridging this gap, and eventually progressing to L4/L5, requires addressing several fundamental challenges, which represent key research opportunities for the field. For more information, please refer to our [[Survey]](reports/Data_Agents_Survey.pdf) and [[Slides]](slides/DataAgents_Squirrel_Webinar.pdf) of a recent talk.
 
 ### The Critical L2-to-L3 Transition
 The primary bottleneck lies in elevating data agents from **procedural executors (L2)** to **autonomous dominators (L3)**. As highlighted in the figure above, this requires significant advancements across five key aspects of agentic architecture: **Perception, Planning, Actions, Tools, and Memory**. Successfully bridging this gap involves overcoming four main deficiencies:
