@@ -56,6 +56,7 @@
 - [Text2Chart31: Instruction Tuning for Chart Generation with Automatic Feedback](https://arxiv.org/pdf/2410.04064) - *EMNLP 2024*
 - [NVAGENT: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://arxiv.org/pdf/2502.05036) - *ACL 2025*
 - [DeepVIS: Bridging Natural Language and Data Visualization Through Step-wise Reasoning](https://arxiv.org/pdf/2508.01700) - *VIS 2025*
+- [Multi-Agent Framework with Logic Rules for Reliable and Comprehensive Cross-Modal Data Visualization](https://arxiv.org/abs/2601.18320) - *SIGMOD 2026*
 ##### Unstructured Data Analysis
 - [Active Retrieval Augmented Generation](https://arxiv.org/pdf/2305.06983) - *NeurIPS 2023*
 - [A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts](https://arxiv.org/pdf/2402.09727) - *ICML 2024*

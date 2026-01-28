@@ -1,5 +1,10 @@
 import pandas as pd
 
+
+"""
+Usage: python src/extract_item.py
+"""
+
 # Load the Excel file
 file_path = 'src/paper_list.xlsx'  # Updated path as provided
 xls = pd.ExcelFile(file_path)
