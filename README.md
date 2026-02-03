@@ -105,7 +105,7 @@ At L1 level, data agents start to have the capabilities to provide preliminary a
 - [LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency](https://dl.acm.org/doi/abs/10.14778/3696435.3696440) - *VLDB 2024*
 - [Query Rewriting via Large Language Models](https://arxiv.org/abs/2403.09060) - *arXiv 2024*
 - [Query Rewriting via LLMs](https://arxiv.org/abs/2502.12918) - *arXiv 2025*
-- [Can Large Language Models Be Query Optimizer for Relational Databases?](https://arxiv.org/abs/2502.05562) - *arXiv 2025*
+- [Can Large Language Models Be Query Optimizer for Relational Databases?](https://dl.acm.org/doi/epdf/10.1145/3769771) - *SIGMOD 2025*
 - [A Query Optimization Method Utilizing Large Language Models](https://arxiv.org/abs/2503.06902) - *arXiv 2025*
 - [E3-Rewrite: Learning to Rewrite SQL for Executability, Equivalence, and Efficiency](https://arxiv.org/abs/2508.09023) - *arXiv 2025*
 ##### System Diagnosis
