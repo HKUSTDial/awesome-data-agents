@@ -196,6 +196,7 @@ At L2, data agents gain the ability to perceive and interact with their environm
 - [CleanAgent: Automating Data Standardization with LLM-based Agents](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DATAI/DATAI25_8.pdf) - *VLDB Workshop 2025*
 - [Exploring LLM Agents for Cleaning Tabular Machine Learning Datasets](https://arxiv.org/pdf/2503.06664) - *ICLR Workshop 2025*
 - [Weak-to-Strong Prompts with Lightweight-to-Powerful LLMs for High-Accuracy, Low-Cost, and Explainable Data Transformation](https://www.vldb.org/pvldb/vol18/p2371-tang.pdf) - *VLDB 2025*
+- [DeepPrep: An LLM-Powered Agentic System for Autonomous Data Preparation](https://arxiv.org/pdf/2602.07371) - *arXiv 2026*
 ##### Data Integration
 - [Agent-OM: Leveraging LLM Agents for Ontology Matching](https://arxiv.org/pdf/2312.00326) - *VLDB 2024*
 - [Ontology Matching with Large Language Models and Prioritized Depth-First Search](https://arxiv.org/pdf/2501.11441) - *Information Fusion 2025*
