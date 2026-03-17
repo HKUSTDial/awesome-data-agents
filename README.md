@@ -10,7 +10,7 @@
 </div>
 
 > [!NOTE]
-> Curated papers and resources on **Data Agents**. Companion repo and paper list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](reports/Data_Agents_Survey.pdf)
+> Curated papers and resources on **Data Agents**. Companion repo and paper list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](https://arxiv.org/pdf/2510.23587)
 >
 > We also released slides for a recent talk: [[Slides]](slides/DataAgents_Squirrel_Webinar.pdf)
 >
@@ -47,6 +47,7 @@
   - [🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)](#-l4-l5-vision-of-proactive-and-generative-data-agents-prospect)
   - [📚 Survey and Tutorial](#-survey-and-tutorial)
 - [🔬 Research Opportunites](#-research-opportunities)
+- [📮 Connect with Us](#-connect-with-us)
 
 ## 🎯 Introduction
 
@@ -348,3 +349,6 @@ Moving beyond L3 supervision towards proactive (L4) and generative (L5) data age
 * **Long-Horizon and Holistic Planning (L4):** Moving beyond local, step-by-step optimization to **long-horizon planning**. L4 data agents must be able to make strategic trade-offs, such as balancing the immediate cost of data cleaning against long-term analytical benefits.
 
 * **Generative Innovation (L5):** The ultimate vision is a data agent that can *innovate and pioneer new paradigms*. Instead of merely applying existing methods, an L5 data agent would recognize the limitations of current approaches and *invent novel algorithms, theories, or frameworks* to advance the state-of-the-art.
+
+## 📮 Connect with Us
+Should you have any questions or suggestions, or wish to recommend new papers, please feel free to open an issue or contact us via email at: `yzhu305@connect.hkust-gz.edu.cn`
