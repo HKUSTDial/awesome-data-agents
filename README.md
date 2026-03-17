@@ -281,6 +281,8 @@ To date, no existing system has fully realized such versatile, self-directed orc
 - [BigQuery](https://cloud.google.com/blog/products/data-analytics/a-closer-look-at-bigquery-data-engineering-agent) — *Google*
 - [Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) — *Snowflake*
 - [Xata Agent](https://xata.io/blog/dba-to-db-agent) — *Xata*
+- [Julius.ai](https://julius.ai/) - Julis
+- [Bayeslab.ai](https://bayeslab.ai/) - Bayeslab
 
 #### Comparison of Proto-L3 Data Agents from Academia Research and Industry Products
 Compares Open-source: availability; Undef Ops.: capabilities in utilizing unpredefined operators; data-related task coverage across data management, preparation, analysis; data complexity dimensions: Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.)
