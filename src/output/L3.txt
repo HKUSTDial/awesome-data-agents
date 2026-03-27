@@ -1,3 +1,4 @@
+- [DeepEye: A Steerable Self-driving Data Agent System](https://arxiv.org/abs/xxxx) - *SIGMOD Demo 2026*
 - [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002) - *arXiv 2025*
 - [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *arXiv 2025*
 - [Scaling Generalist Data-Analytic Agents](https://arxiv.org/pdf/2509.25084) - *ICLR 2026*
@@ -11,3 +12,5 @@
 - [BigQuery](https://cloud.google.com/blog/products/data-analytics/a-closer-look-at-bigquery-data-engineering-agent) — *Google*
 - [Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) — *Snowflake*
 - [Xata Agent (Just DBA)](https://xata.io/blog/dba-to-db-agent) — *Xata*
+- [Julius.ai](https://julius.ai/) — *Julis*
+- [Bayeslab.ai](https://bayeslab.ai/) — *Bayeslab*
