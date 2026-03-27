@@ -81,7 +81,7 @@ The transition between these levels represents more than just incremental progre
 
 ## 📑 Paper List
 
-<p align="center"><img src="assets/representative_work.jpg" alt="Leaps" width="100%"></p>
+<p align="center"><img src="assets/representative_work.jpg" alt="Works" width="100%"></p>
 
 
 We index papers **by autonomy level**, then **by data-related tasks** across Data Management, Data Preparation, and Data Analysis. Most existing work clusters in L1–L3, while L4–L5 are aspirational. We also list relevant surveys and tutorials.
