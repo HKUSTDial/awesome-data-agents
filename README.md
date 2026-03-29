@@ -4,8 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.23587-b31b1b.svg?style=flat)](https://arxiv.org/abs/2510.23587)
-
-
+[![Slides](https://img.shields.io/badge/Slides-Webinar-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/DataAgents_Squirrel_Webinar.pdf)
 
 </div>
 
@@ -26,11 +25,9 @@
 ```
 
 ## ✨ News
-`🏆 Mar. 28, 2026` We’re thrilled to launch the **KDD Cup 2026: Data Agents for Complex Data Analysis Track**! Explore the frontiers of data agents with us: [[Official Website]](https://dataagent.top/)
+`🔥 Mar. 28, 2026` We’re thrilled to launch the **KDD Cup 2026: Data Agents for Complex Data Analysis Track**! Explore the frontiers of data agents with us: [[Official Website]](https://dataagent.top/)
 
-`🎙️ Dec. 19, 2025` We’ve released the slides from our recent webinar, take a look here: [[Slides]](slides/DataAgents_Squirrel_Webinar.pdf)
-
-`📣 Oct. 27, 2025` We’re happy to share that our survey is now available on **arXiv**: [[Paper]](https://arxiv.org/pdf/2510.23587)
+`📢 Oct. 27, 2025` We’re happy to share that our survey is now available on **arXiv**: [[Paper]](https://arxiv.org/pdf/2510.23587)
 
 ## Contents
 
