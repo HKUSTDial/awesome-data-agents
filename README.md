@@ -288,6 +288,7 @@ To date, no existing system has fully realized such versatile, self-directed orc
 - [Xata Agent](https://xata.io/blog/dba-to-db-agent) — *Xata*
 - [Julius.ai](https://julius.ai/) - Julis
 - [Bayeslab.ai](https://bayeslab.ai/) - Bayeslab
+- [AI for Database](https://aifordatabase.com/) — Agentic AI for databases: query in plain English, self-refreshing dashboards, automated workflows. *AI for Database*
 
 #### Comparison of Proto-L3 Data Agents from Academia Research and Industry Products
 Compares Open-source: availability; Undef Ops.: capabilities in utilizing unpredefined operators; data-related task coverage across data management, preparation, analysis; data complexity dimensions: Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.)
