@@ -269,7 +269,7 @@ L3 data agents are expected to autonomously orchestrate tailored data pipelines 
 To date, no existing system has fully realized such versatile, self-directed orchestration capabilities that define a complete L3 data agent. However, emerging efforts from both academia and industry are beginning to address these challenges, giving rise to what we term "Proto-L3" data agents.
 
 #### Academia Research
-- [DeepEye: A Steerable Self-driving Data Agent System](https://arxiv.org/abs/xxxx) - *SIGMOD Demo 2026*
+- [DeepEye: A Steerable Self-driving Data Agent System](https://arxiv.org/pdf/2603.28889) - *SIGMOD Demo 2026*
 - [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002) - *arXiv 2025*
 - [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *arXiv 2025*
 - [Scaling Generalist Data-Analytic Agents](https://arxiv.org/pdf/2509.25084) - *ICLR 2026*
