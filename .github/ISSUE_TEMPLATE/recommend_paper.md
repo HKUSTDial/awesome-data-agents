@@ -8,19 +8,21 @@ assignees: ''
 
 Thank you for taking the time to recommend a paper or project! We truly appreciate every contribution from the community. Please fill in the fields below as completely as possible to help us review your submission efficiently.
 
----
 
 ## 📌 Basic Information
 
 **System / Model / Paper Name:**
 > e.g., AwesomeDataAgent
 
+**Affiliation / Institution:**
+> e.g., The Hong Kong University of Science and Technology (Guangzhou) / Tsinghua University / Google Research / ...
+
 **Paper / Project Link:**
 > Please provide the primary link (arXiv, ACL Anthology, proceedings page, GitHub, etc.)
 > e.g., https://arxiv.org/abs/xxxx.xxxxx
 
 **Publication Venue & Year (if applicable):**
-> e.g., VLDB 2025 / NeurIPS 2024 / arXiv 2025 / ...
+> e.g., VLDB 2024 / NeurIPS 2025 / arXiv 2026 / ...
 
 ---
 
