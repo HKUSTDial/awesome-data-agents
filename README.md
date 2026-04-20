@@ -2,9 +2,12 @@
 <h1 align="center">🌟 Awesome Data Agents 🌟</h1>
 <div align="center">
 
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.23587-b31b1b.svg?style=flat)](https://arxiv.org/abs/2510.23587)
 [![Slides](https://img.shields.io/badge/Slides-Webinar-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/DataAgents_Squirrel_Webinar.pdf)
+[![Recommend a Paper](https://img.shields.io/badge/Recommend%20a%20Paper/Project-Open%20Issue-2ea44f?style=flat&logo=github&logoColor=white)](#-recommend-a-paper)
+[![Contact Us](https://img.shields.io/badge/Mail-Connect%20with%20us-blue?style=flat&logo=maildotru&logoColor=white)](#-connect-with-us)
 
 </div>
 
@@ -51,6 +54,7 @@
   - [🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)](#-l4-l5-vision-of-proactive-and-generative-data-agents-prospect)
   - [📚 Survey and Tutorial](#-survey-and-tutorial)
 - [🔬 Research Opportunites](#-research-opportunities)
+- [📝 Recommend a Paper](#-recommend-a-paper)
 - [📮 Connect with Us](#-connect-with-us)
 
 ## 🎯 Introduction
@@ -356,6 +360,14 @@ Moving beyond L3 supervision towards proactive (L4) and generative (L5) data age
 * **Long-Horizon and Holistic Planning (L4):** Moving beyond local, step-by-step optimization to **long-horizon planning**. L4 data agents must be able to make strategic trade-offs, such as balancing the immediate cost of data cleaning against long-term analytical benefits.
 
 * **Generative Innovation (L5):** The ultimate vision is a data agent that can *innovate and pioneer new paradigms*. Instead of merely applying existing methods, an L5 data agent would recognize the limitations of current approaches and *invent novel algorithms, theories, or frameworks* to advance the state-of-the-art.
+
+## 📝 Recommend a Paper
+
+Have a paper or project to suggest? We'd love to hear from you! Please open an issue using our template — it takes just a minute and helps us keep this list comprehensive:
+[![Recommend a Paper](https://img.shields.io/badge/Recommend-Click%20to%20Open%20an%20Issue%20with%20Template-green?style=flat)](../../issues/new?template=recommend_paper.md)
+
+We carefully review all submissions and will update the list accordingly. Thank you for your contribution! 🙏
+
 
 ## 📮 Connect with Us
 Should you have any questions or suggestions, or wish to recommend new papers, please feel free to open an issue or contact us via email at: `yzhu305@connect.hkust-gz.edu.cn`
