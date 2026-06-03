@@ -5,8 +5,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.23587-b31b1b.svg?style=flat)](https://arxiv.org/abs/2510.23587)
-[![Slides](https://img.shields.io/badge/Slides-Webinar-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/DataAgents_Squirrel_Webinar.pdf)
-[![Recommend a Paper](https://img.shields.io/badge/Recommend%20a%20Paper/Project-Open%20Issue-2ea44f?style=flat&logo=github&logoColor=white)](#-recommend-a-paper)
+<!-- [![Slides](https://img.shields.io/badge/Slides-Webinar-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/DataAgents_Squirrel_Webinar.pdf) -->
+[![Slides](https://img.shields.io/badge/Slides-SIGMOD'26%20Tutorial-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/SIGMOD2026_tutorial)
+[![Recommend a Paper](https://img.shields.io/badge/Recommend%20a%20Paper-Open%20Issue-2ea44f?style=flat&logo=github&logoColor=white)](#-recommend-a-paper)
 [![Contact Us](https://img.shields.io/badge/Mail-Connect%20with%20us-blue?style=flat&logo=maildotru&logoColor=white)](#-connect-with-us)
 
 </div>
@@ -14,9 +15,9 @@
 > [!NOTE]
 > Curated papers and resources on **Data Agents**. Companion repo and paper list for our survey on data agents - *A Survey of Data Agents: Emerging Paradigm or Overstated Hype?* [[Paper]](https://arxiv.org/pdf/2510.23587)
 >
-> We also released slides for a recent talk: [[Slides]](slides/DataAgents_Squirrel_Webinar.pdf)
+> We also presented a 3-hour tutorial at **SIGMOD 2026**! Check out the slides: [[Slides]](slides/SIGMOD2026_tutorial)
 >
-> If you find our work useful or inspiring, please kindly give us a star ⭐️ and cite our survey:
+> If you find our work useful or inspiring, please kindly give us a star ⭐️ and cite our paper & tutorials:
 
 ```bibtex
 @article{zhu2025survey,
@@ -25,9 +26,21 @@
   journal={arXiv preprint arXiv:2510.23587},
   year={2025}
 }
+
+@article{luo2026data,
+  title={Data Agents: Levels, State of the Art, and Open Problems},
+  author={Luo, Yuyu and Li, Guoliang and Fan, Ju and Tang, Nan},
+  journal={arXiv preprint arXiv:2602.04261},
+  year={2026}
+}
 ```
 
+<!-- > We also released slides for a recent talk: [[Slides]](slides/DataAgents_Squirrel_Webinar.pdf) -->
+
 ## ✨ News
+
+`🎉 Jun. 03, 2026` We presented 3-hour tutorial **"Data Agents: Levels, State of the Art, and Open Problems"** at **SIGMOD 2026**! Slides are now available: [[Slides]](slides/SIGMOD2026_tutorial)
+
 `🔥 Mar. 28, 2026` We’re thrilled to launch the **KDD Cup 2026: Data Agents for Complex Data Analysis Track**! Explore the frontiers of data agents with us: [[Official Website]](https://dataagent.top/)
 
 `📢 Oct. 27, 2025` We’re happy to share that our survey is now available on **arXiv**: [[Paper]](https://arxiv.org/pdf/2510.23587)
