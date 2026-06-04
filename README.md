@@ -5,8 +5,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.23587-b31b1b.svg?style=flat)](https://arxiv.org/abs/2510.23587)
-<!-- [![Slides](https://img.shields.io/badge/Slides-Webinar-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/DataAgents_Squirrel_Webinar.pdf) -->
-[![Slides](https://img.shields.io/badge/Slides-SIGMOD'26%20Tutorial-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/SIGMOD2026_tutorial)
+[![Slides](https://img.shields.io/badge/Slides-SIGMOD'26%20Tutorial-f68f3a?style=flat&logo=speakerdeck&logoColor=white)](slides/SIGMOD2026_tutorial)
+[![Slides](https://img.shields.io/badge/Slides-Seminar-009287?style=flat&logo=speakerdeck&logoColor=white)](slides/Seminar)
+
 [![Recommend a Paper](https://img.shields.io/badge/Recommend%20a%20Paper-Open%20Issue-2ea44f?style=flat&logo=github&logoColor=white)](#-recommend-a-paper)
 [![Contact Us](https://img.shields.io/badge/Mail-Connect%20with%20us-blue?style=flat&logo=maildotru&logoColor=white)](#-connect-with-us)
 
@@ -17,7 +18,7 @@
 >
 > We also presented a 3-hour tutorial at **SIGMOD 2026**! Check out the slides: [[Slides]](slides/SIGMOD2026_tutorial)
 >
-> If you find our work useful or inspiring, please kindly give us a star ⭐️ and cite our paper & tutorials:
+> If you find our work useful or inspiring, please kindly give us a star ⭐️ and cite our paper & tutorial:
 
 ```bibtex
 @article{zhu2025survey,
@@ -39,7 +40,7 @@
 
 ## ✨ News
 
-`🎉 Jun. 03, 2026` We presented 3-hour tutorial **"Data Agents: Levels, State of the Art, and Open Problems"** at **SIGMOD 2026**! Slides are now available: [[Slides]](slides/SIGMOD2026_tutorial)
+`🎉 Jun. 03, 2026` We presented a 3-hour tutorial **"Data Agents: Levels, State of the Art, and Open Problems"** at **SIGMOD 2026**! Slides are now available: [[Slides]](slides/SIGMOD2026_tutorial)
 
 `🔥 Mar. 28, 2026` We’re thrilled to launch the **KDD Cup 2026: Data Agents for Complex Data Analysis Track**! Explore the frontiers of data agents with us: [[Official Website]](https://dataagent.top/)
 
