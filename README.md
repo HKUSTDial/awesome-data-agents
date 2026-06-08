@@ -71,6 +71,7 @@
 - [📝 Recommend a Paper](#-recommend-a-paper)
 - [📮 Connect with Us](#-connect-with-us)
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring MCP for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Free: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ## 🎯 Introduction
 
 <p align="center"><img src="assets/overview.jpg" alt="Teaser" width="100%"></p>
