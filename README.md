@@ -288,8 +288,9 @@ To date, no existing system has fully realized such versatile, self-directed orc
 
 #### Academia Research
 - [DeepEye: A Steerable Self-driving Data Agent System](https://arxiv.org/pdf/2603.28889) - *SIGMOD Demo 2026*
+- [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *ICML 2026*
+- [DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving](https://arxiv.org/abs/2606.07001) - *arXiv 2026*
 - [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002) - *arXiv 2025*
-- [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *arXiv 2025*
 - [Scaling Generalist Data-Analytic Agents](https://arxiv.org/pdf/2509.25084) - *ICLR 2026*
 - [AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries](https://www.vldb.org/cidrdb/papers/2025/p32-wang.pdf) - *CIDR 2025*
 - [iDataLake: An LLM-Powered Analytics System on Data Lakes](http://sites.computer.org/debull/A25mar/p57.pdf) - *IEEE Data Engineering Bulletin 2025*
