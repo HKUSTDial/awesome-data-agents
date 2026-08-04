@@ -248,6 +248,7 @@ At L2, data agents gain the ability to perceive and interact with their environm
 - [OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment.](https://arxiv.org/pdf/2502.14913) - *SIGMOD 2025*
 - [ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/pdf/2502.00675) - *arXiv 2025*
 - [DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework](https://www.arxiv.org/pdf/2510.17586) - *SIGMOD 2026*
+- [SQLConductor: Search-to-Policy Learning for Step-wise Text-to-SQL Orchestration](https://arxiv.org/pdf/2606.23537) - *arXiv 2026*
 ##### NL2VIS
 - [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/pdf/2402.11453) - *ACL 2024*
 - [Text2Chart31: Instruction Tuning for Chart Generation with Automatic Feedback](https://arxiv.org/pdf/2410.04064) - *EMNLP 2024*
@@ -290,7 +291,8 @@ To date, no existing system has fully realized such versatile, self-directed orc
 - [DeepEye: A Steerable Self-driving Data Agent System](https://arxiv.org/pdf/2603.28889) - *SIGMOD Demo 2026*
 - [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](https://arxiv.org/abs/2510.16872v1) - *ICML 2026*
 - [DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving](https://arxiv.org/abs/2606.07001) - *arXiv 2026*
-- [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002) - *arXiv 2025*
+- [AgenticData: A Multi-Agent based Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002v2) - *arXiv 2026*
+- [EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management](https://arxiv.org/pdf/2606.03841) - *KDD 2026*
 - [Scaling Generalist Data-Analytic Agents](https://arxiv.org/pdf/2509.25084) - *ICLR 2026*
 - [AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries](https://www.vldb.org/cidrdb/papers/2025/p32-wang.pdf) - *CIDR 2025*
 - [iDataLake: An LLM-Powered Analytics System on Data Lakes](http://sites.computer.org/debull/A25mar/p57.pdf) - *IEEE Data Engineering Bulletin 2025*
@@ -305,8 +307,6 @@ To date, no existing system has fully realized such versatile, self-directed orc
 - [BigQuery](https://cloud.google.com/blog/products/data-analytics/a-closer-look-at-bigquery-data-engineering-agent) — *Google*
 - [Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) — *Snowflake*
 - [Xata Agent](https://xata.io/blog/dba-to-db-agent) — *Xata*
-- [Julius.ai](https://julius.ai/) - Julis
-- [Bayeslab.ai](https://bayeslab.ai/) - Bayeslab
 
 #### Comparison of Proto-L3 Data Agents from Academia Research and Industry Products
 Compares Open-source: availability; Undef Ops.: capabilities in utilizing unpredefined operators; data-related task coverage across data management, preparation, analysis; data complexity dimensions: Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.)
