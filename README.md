@@ -66,7 +66,9 @@
     - [Industry Products](#industry-products)
     - [Comparison of Proto-L3 Data Agents](#comparison-of-proto-l3-data-agents-from-academia-research-and-industry-products)
   - [🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)](#-l4-l5-vision-of-proactive-and-generative-data-agents-prospect)
-  - [📚 Survey and Tutorial](#-survey-and-tutorial)
+- [📚 Related Resources](#-related-resources)
+  - [🗃️ Data Agent Benchmarks](#-data-agent-benchmarks)
+  - [📖 Surveys and Tutorials](#-surveys-and-tutorials)
 - [🔬 Research Opportunites](#-research-opportunities)
 - [📝 Recommend a Paper](#-recommend-a-paper)
 - [📮 Connect with Us](#-connect-with-us)
@@ -326,7 +328,21 @@ At the ultimate level of L5, beyond applying existing methods, data agents are e
 
 <p align="center"><img src="assets/l5_agent.jpg" alt="L4" width="50%"></p>
 
-### 📚 Survey and Tutorial
+
+### 📚 Related Resources
+
+#### 🗃️ Data Agent Benchmarks
+
+- [DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces](https://arxiv.org/pdf/2608.03451) - *ArXiv 2026*
+- [AgenticDataBench: A Comprehensive Benchmark for Data Agents](https://arxiv.org/pdf/2607.01647) - *ArXiv 2026*
+- [Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents](https://arxiv.org/pdf/2603.20576) - *ArXiv 2026*
+- [CoDA-Bench: Can Code Agents Handle Data-Intensive Tasks?](https://arxiv.org/pdf/2606.15300) - *ICML 2026*
+- [FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data](https://arxiv.org/pdf/2509.02473) - *KDD 2026*
+- [DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle](https://arxiv.org/pdf/2512.04324) - *ICLR 2026*
+- [KramaBench: A Benchmark for AI Systems on Data-to-Insight Pipelines over Data Lakes](https://arxiv.org/pdf/2506.06541) - *ICLR 2026*
+- [DABstep: Data Agent Benchmark for Multi-step Reasoning](http://arxiv.org/pdf/2506.23719) - *ArXiv 2025*
+
+#### 📖 Surveys and Tutorials
 
 - [A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?](https://ieeexplore.ieee.org/document/11095853) - *TKDE 2025*
 - [Natural Language to SQL: State of the Art and Open Problems](https://www.vldb.org/pvldb/vol18/p5466-luo.pdf) - *VLDB Tutorial 2025*

@@ -1,0 +1,8 @@
+- [DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces](https://arxiv.org/pdf/2608.03451) - *ArXiv 2026*
+- [AgenticDataBench: A Comprehensive Benchmark for Data Agents](https://arxiv.org/pdf/2607.01647) - *ArXiv 2026*
+- [Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents](https://arxiv.org/pdf/2603.20576) - *ArXiv 2026*
+- [CoDA-Bench: Can Code Agents Handle Data-Intensive Tasks?](https://arxiv.org/pdf/2606.15300) - *ICML 2026*
+- [FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data](https://arxiv.org/pdf/2509.02473) - *KDD 2026*
+- [DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle](https://arxiv.org/pdf/2512.04324) - *ICLR 2026*
+- [KramaBench: A Benchmark for AI Systems on Data-to-Insight Pipelines over Data Lakes](https://arxiv.org/pdf/2506.06541) - *ICLR 2026*
+- [DABstep: Data Agent Benchmark for Multi-step Reasoning](http://arxiv.org/pdf/2506.23719) - *ArXiv 2025*

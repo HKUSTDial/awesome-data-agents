@@ -21,7 +21,7 @@ def process_sheet(sheet_name):
         relevant_cols = ['Data Agent', 'Paper', 'Link', 'Venue', 'Years', 'Affiliation']
         # Convert Years to integer to remove .0, handle NaN safely
         df['Years'] = df['Years'].apply(lambda x: int(x) if pd.notna(x) and x == x else '')
-    elif sheet_name == 'survey':
+    elif sheet_name in {'survey', 'bench'}:
         if len(df.columns) == 4:
             df.columns = ['Years', 'Paper', 'Link', 'Venue']
         relevant_cols = ['Paper', 'Link', 'Venue', 'Years']
@@ -68,7 +68,7 @@ def process_sheet(sheet_name):
             else:
                 line = f"- [{data_agent}]({link}) — *{affiliation}*"
             lines.append(line)
-        elif sheet_name == 'survey':
+        elif sheet_name in {'survey', 'bench'}:
             paper = row['Paper'] if pd.notna(row['Paper']) else ''
             link = row['Link'] if pd.notna(row['Link']) else ''
             venue = row['Venue'] if pd.notna(row['Venue']) else ''
@@ -134,7 +134,7 @@ def process_sheet(sheet_name):
     print(f"Generated: {txt_filename}")
 
 # Process each sheet
-sheets = ['L1', 'L2', 'L3', 'survey']
+sheets = ['L1', 'L2', 'L3', 'survey', 'bench']
 for sheet in sheets:
     process_sheet(sheet)
 
