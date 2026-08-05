@@ -46,7 +46,7 @@
 
 `📢 Oct. 27, 2025` We’re happy to share that our survey is now available on **arXiv**: [[Paper]](https://arxiv.org/pdf/2510.23587)
 
-## Contents
+## Table of Contents
 
 - [🎯 Introduction](#introduction)
 - [🪜 Levels of Data Agents](#levels-of-data-agents) 
@@ -67,7 +67,7 @@
     - [Comparison of Proto-L3 Data Agents](#comparison-of-proto-l3-data-agents-from-academia-research-and-industry-products)
   - [🔮 L4-L5: Vision of Proactive and Generative Data Agents (Prospect)](#-l4-l5-vision-of-proactive-and-generative-data-agents-prospect)
 - [📚 Related Resources](#-related-resources)
-  - [🗃️ Data Agent Benchmarks](#-data-agent-benchmarks)
+  - [📦 Data Agent Benchmarks](#-data-agent-benchmarks)
   - [📖 Surveys and Tutorials](#-surveys-and-tutorials)
 - [🔬 Research Opportunites](#-research-opportunities)
 - [📝 Recommend a Paper](#-recommend-a-paper)
@@ -331,7 +331,7 @@ At the ultimate level of L5, beyond applying existing methods, data agents are e
 
 ### 📚 Related Resources
 
-#### 🗃️ Data Agent Benchmarks
+#### 📦 Data Agent Benchmarks
 
 - [DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces](https://arxiv.org/pdf/2608.03451) - *ArXiv 2026*
 - [AgenticDataBench: A Comprehensive Benchmark for Data Agents](https://arxiv.org/pdf/2607.01647) - *ArXiv 2026*
