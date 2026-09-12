@@ -295,6 +295,7 @@ To date, no existing system has fully realized such versatile, self-directed orc
 - [DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving](https://arxiv.org/abs/2606.07001) - *arXiv 2026*
 - [AgenticData: A Multi-Agent based Data Analytics System for Heterogeneous Data](https://arxiv.org/pdf/2508.05002v2) - *arXiv 2026*
 - [EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management](https://arxiv.org/pdf/2606.03841) - *KDD 2026*
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 - [Scaling Generalist Data-Analytic Agents](https://arxiv.org/pdf/2509.25084) - *ICLR 2026*
 - [AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries](https://www.vldb.org/cidrdb/papers/2025/p32-wang.pdf) - *CIDR 2025*
 - [iDataLake: An LLM-Powered Analytics System on Data Lakes](http://sites.computer.org/debull/A25mar/p57.pdf) - *IEEE Data Engineering Bulletin 2025*
