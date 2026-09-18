@@ -311,6 +311,7 @@ To date, no existing system has fully realized such versatile, self-directed orc
 - [Xata Agent](https://xata.io/blog/dba-to-db-agent) — *Xata*
 
 #### Comparison of Proto-L3 Data Agents from Academia Research and Industry Products
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — drop-in recorder that sits between your agent and the model provider.
 Compares Open-source: availability; Undef Ops.: capabilities in utilizing unpredefined operators; data-related task coverage across data management, preparation, analysis; data complexity dimensions: Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.)
 <p align="center"><img src="assets/l3_comparison.png" width="100%"></p>
 
