@@ -277,6 +277,7 @@ At L2, data agents gain the ability to perceive and interact with their environm
 - [ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent](https://arxiv.org/abs/2507.18165) - *VIS 2025*
 - [VOICE: Visual Oracle for Interaction, Conversation, and Explanation](https://ieeexplore.ieee.org/document/11037292) - *TVCG 2025*
 - [NLI4VolVis: Natural Language Interaction for Volume Visualization  via LLM Multi-Agents and Editable 3D Gaussian Splatting (VIS'25)](https://arxiv.org/abs/2507.12621) - *VIS 2025*
+- [An AI Co-Data-Scientist for Prioritizing Candidate Biomarkers from Wearable Sensor Data](https://arxiv.org/pdf/2604.14615) - *arXiv 2026*
 
 #### Comparison of L2 Data Agents
 RAG: Retrieval-Augmented Generation; Percept: Environmental Perception; Plan: Planning; Mem: Memory; Tool: Tool invocation; Reflect: Self-reflection mechanism; MAS: Multi-agent system; SFT: Supervised Fine-Tuning; RL: Reinforcement Learning. Data complexity dimensions include Multi-source (Multis.), Heterogeneous (Hete.), and Multimodal (Multim.) data support.
